@@ -9,24 +9,37 @@
     <style>
         body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; padding: 50px; background: #f4f4f9; }
         .container { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
-        input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
-        #resultado { margin-top: 20px; font-weight: bold; padding: 15px; border-radius: 4px; display: none; }
+        input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; font-size: 16px; }
+        #resultado { margin-top: 20px; font-weight: bold; padding: 15px; border-radius: 4px; display: none; text-align: center; }
+        
+        /* Cores de Status */
         .antiga { background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; }
         .atual { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
         .erro { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+
+        /* Estilo do Histórico */
+        .historico-container { margin-top: 30px; width: 100%; max-width: 400px; }
+        .historico-titulo { font-size: 14px; color: #666; margin-bottom: 10px; border-bottom: 1px solid #ddd; padding-bottom: 5px; }
+        .historico-item { background: #fff; padding: 8px 12px; margin-bottom: 5px; border-radius: 4px; border-left: 4px solid #ccc; font-size: 13px; display: flex; justify-content: space-between; }
+        .item-antiga { border-left-color: #ffc107; }
+        .item-atual { border-left-color: #28a745; }
     </style>
 </head>
 <body>
 
     <div class="container">
         <h2>Consulta de Tags</h2>
-        <input type="text" id="inputTag" placeholder="Digite a TAG antiga ou nova..." py-keyup="verificar_tag">
+        <input type="text" id="inputTag" placeholder="Digite a TAG e aperte ENTER..." py-keyup="verificar_tag">
         <div id="resultado"></div>
+    </div>
+
+    <div class="historico-container">
+        <div class="historico-titulo">Consultas Recentes</div>
+        <div id="listaHistorico"></div>
     </div>
 
     <py-config>
         packages = ["pandas"]
-        # O fetch garante que o arquivo CSV seja baixado para o sistema de arquivos virtual do PyScript
         [[fetch]]
         files = ["tags.csv"]
     </py-config>
@@ -35,11 +48,22 @@
         import pandas as pd
         from pyscript import document
 
-        # Carrega os dados do arquivo que foi 'buscado' pelo py-config
+        # Carrega os dados com encoding para evitar erros de acentuação do Excel
         df = pd.read_csv("tags.csv", encoding='latin1', sep=None, engine='python')
 
+        def adicionar_ao_historico(texto, tipo):
+            lista = document.getElementById("listaHistorico")
+            novo_item = document.createElement("div")
+            novo_item.className = f"historico-item item-{tipo}"
+            novo_item.innerHTML = texto
+            # Insere sempre no topo da lista
+            lista.insertBefore(novo_item, lista.firstChild)
+            
+            # Mantém apenas os últimos 5 itens para não poluir a tela
+            if lista.children.length > 5:
+                lista.removeChild(lista.lastChild)
+
         def verificar_tag(event):
-            # Processa apenas quando a tecla Enter for pressionada
             if event.key == "Enter":
                 tag_digitada = document.getElementById("inputTag").value.strip().upper()
                 resultado_div = document.getElementById("resultado")
@@ -48,7 +72,6 @@
                     resultado_div.style.display = "none"
                     return
 
-                # Lógica de busca usando Pandas
                 filtro_antiga = df[df['antiga'].astype(str).str.upper() == tag_digitada]
                 filtro_nova = df[df['nova'].astype(str).str.upper() == tag_digitada]
 
@@ -57,17 +80,19 @@
                 if not filtro_antiga.empty:
                     tag_nova = filtro_antiga.iloc[0]['nova']
                     resultado_div.className = "antiga"
+                    msg = f"Antiga: {tag_digitada} → Nova: {tag_nova}"
                     resultado_div.innerHTML = f"Tag Antiga Detectada!<br>Nova Tag: {tag_nova}"
-
+                    adicionar_ao_historico(msg, "antiga")
+                
                 elif not filtro_nova.empty:
                     resultado_div.className = "atual"
                     resultado_div.innerHTML = "Esta tag já é a atual."
-
+                    adicionar_ao_historico(f"Tag {tag_digitada} já está atualizada", "atual")
+                
                 else:
                     resultado_div.className = "erro"
-                    resultado_div.innerHTML = "Tag não encontrada na base de dados."
+                    resultado_div.innerHTML = "Tag não encontrada."
 
-                # Limpa o campo para a próxima consulta
                 document.getElementById("inputTag").value = ""
     </script>
 </body>
