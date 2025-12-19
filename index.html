@@ -7,42 +7,58 @@
     <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
     <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
     <style>
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; flex-direction: column; align-items: center; padding: 40px 20px; background: #f0f2f5; color: #333; }
+        body { font-family: 'Segoe UI', sans-serif; display: flex; flex-direction: column; align-items: center; padding: 40px 20px; background: #f0f2f5; }
+        
+        /* Estilo do Loader */
+        #loading-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            z-index: 9999; transition: opacity 0.5s;
+        }
+        .spinner {
+            width: 50px; height: 50px;
+            border: 5px solid #f3f3f3; border-top: 5px solid #1a73e8;
+            border-radius: 50%; animation: spin 1s linear infinite;
+            margin-bottom: 15px;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        /* Esconde o conteúdo principal enquanto carrega */
+        .content-hidden { display: none; }
+
+        /* Estilos do App */
         .container { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); width: 100%; max-width: 450px; }
         h2 { text-align: center; color: #1a73e8; margin-top: 0; }
-        p.instrucao { font-size: 13px; color: #666; text-align: center; margin-bottom: 20px; }
+        input { width: 100%; padding: 12px; margin: 10px 0; border: 2px solid #dfe1e5; border-radius: 8px; font-size: 16px; outline: none; }
+        #resultado { margin-top: 20px; font-weight: bold; padding: 15px; border-radius: 8px; display: none; text-align: center; }
         
-        input { width: 100%; padding: 12px 15px; margin: 10px 0; border: 2px solid #dfe1e5; border-radius: 8px; box-sizing: border-box; font-size: 16px; outline: none; transition: border-color 0.3s; }
-        input:focus { border-color: #1a73e8; }
-        
-        #resultado { margin-top: 20px; font-weight: bold; padding: 15px; border-radius: 8px; display: none; text-align: center; line-height: 1.5; }
-        
-        /* Cores de Status */
         .antiga { background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; }
         .atual { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
         .erro { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
-        small { display: block; margin-top: 5px; font-weight: normal; opacity: 0.8; }
 
-        /* Estilo do Histórico */
         .historico-container { margin-top: 30px; width: 100%; max-width: 450px; }
-        .historico-titulo { font-size: 14px; font-weight: bold; color: #5f6368; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px; }
-        .historico-item { background: white; padding: 10px 15px; margin-bottom: 8px; border-radius: 6px; border-left: 5px solid #ccc; font-size: 13px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-        .item-antiga { border-left-color: #fbbc04; }
-        .item-atual { border-left-color: #34a853; }
+        .historico-item { background: white; padding: 10px; margin-bottom: 8px; border-radius: 6px; border-left: 5px solid #ccc; font-size: 13px; }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h2>Consulta de Tags</h2>
-        <p class="instrucao">Digite a TAG (antiga ou nova) e pressione <b>Enter</b></p>
-        <input type="text" id="inputTag" placeholder="Ex: TR-QTN-DH..." py-keyup="verificar_tag" autofocus>
-        <div id="resultado"></div>
+    <div id="loading-overlay">
+        <div class="spinner"></div>
+        <p id="loading-text">Iniciando Banco de Dados Python...</p>
     </div>
 
-    <div class="historico-container">
-        <div class="historico-titulo">Últimas Consultas</div>
-        <div id="listaHistorico"></div>
+    <div id="main-content" class="content-hidden">
+        <div class="container">
+            <h2>Consulta de Tags</h2>
+            <input type="text" id="inputTag" placeholder="Digite a TAG e pressione Enter..." py-keyup="verificar_tag">
+            <div id="resultado"></div>
+        </div>
+
+        <div class="historico-container">
+            <div style="font-size: 14px; font-weight: bold; margin-bottom: 10px;">ÚLTIMAS CONSULTAS</div>
+            <div id="listaHistorico"></div>
+        </div>
     </div>
 
     <py-config>
@@ -55,18 +71,17 @@
         import pandas as pd
         from pyscript import document
 
-        # 1. Carregamento e Limpeza Automática
-        try:
-            # Carrega tratando encoding e separadores comuns do Excel brasileiro
-            df = pd.read_csv("tags.csv", encoding='latin1', sep=None, engine='python')
-            
-            # Limpeza da coluna 'nova': remove o que estiver entre parênteses
-            # Ex: "TAG-01 - (TAG-02)" vira "TAG-01"
-            df['nova'] = df['nova'].astype(str).str.split(' \(').str[0].str.strip()
-            # Garante que a coluna 'antiga' também seja string e sem espaços
-            df['antiga'] = df['antiga'].astype(str).str.strip()
-        except Exception as e:
-            print(f"Erro ao carregar CSV: {e}")
+        # Carrega e limpa os dados
+        df = pd.read_csv("tags.csv", encoding='latin1', sep=None, engine='python')
+        df['nova'] = df['nova'].astype(str).str.split(' \(').str[0].str.strip()
+        df['antiga'] = df['antiga'].astype(str).str.strip()
+
+        # REMOVE O LOADER: Quando o código chega aqui, o Python terminou de carregar
+        loader = document.getElementById("loading-overlay")
+        content = document.getElementById("main-content")
+        
+        loader.style.display = "none" # Esconde o loader
+        content.classList.remove("content-hidden") # Mostra o site
 
         def adicionar_ao_historico(texto, tipo):
             lista = document.getElementById("listaHistorico")
@@ -74,7 +89,6 @@
             novo_item.className = f"historico-item item-{tipo}"
             novo_item.innerHTML = texto
             lista.insertBefore(novo_item, lista.firstChild)
-            
             if lista.children.length > 5:
                 lista.removeChild(lista.lastChild)
 
@@ -82,37 +96,28 @@
             if event.key == "Enter":
                 tag_digitada = document.getElementById("inputTag").value.strip().upper()
                 resultado_div = document.getElementById("resultado")
+                if not tag_digitada: return
 
-                if not tag_digitada:
-                    resultado_div.style.display = "none"
-                    return
-
-                # Realiza a busca nas duas colunas
-                busca_na_antiga = df[df['antiga'].str.upper() == tag_digitada]
-                busca_na_nova = df[df['nova'].str.upper() == tag_digitada]
-
+                busca_antiga = df[df['antiga'].str.upper() == tag_digitada]
+                busca_nova = df[df['nova'].str.upper() == tag_digitada]
                 resultado_div.style.display = "block"
 
-                # CASO 1: Digitou uma TAG ANTIGA
-                if not busca_na_antiga.empty:
-                    tag_nova = busca_na_antiga.iloc[0]['nova']
+                if not busca_antiga.empty:
+                    tag_nova = busca_antiga.iloc[0]['nova']
                     resultado_div.className = "antiga"
-                    resultado_div.innerHTML = f"TAG ANTIGA DETECTADA<br>Nova: {tag_nova}"
-                    adicionar_ao_historico(f"<b>Antiga:</b> {tag_digitada} → <b>Nova:</b> {tag_nova}", "antiga")
+                    resultado_div.innerHTML = f"TAG ANTIGA<br>Nova: {tag_nova}"
+                    adicionar_ao_historico(f"Antiga: {tag_digitada} → Nova: {tag_nova}", "antiga")
                 
-                # CASO 2: Digitou uma TAG NOVA (Busca a antiga correspondente)
-                elif not busca_na_nova.empty:
-                    tag_antiga_relacionada = busca_na_nova.iloc[0]['antiga']
+                elif not busca_nova.empty:
+                    tag_antiga = busca_nova.iloc[0]['antiga']
                     resultado_div.className = "atual"
-                    resultado_div.innerHTML = f"ESTA TAG JÁ É A ATUAL<br><small>Correspondente antiga: {tag_antiga_relacionada}</small>"
-                    adicionar_ao_historico(f"<b>Atual:</b> {tag_digitada} (Antiga: {tag_antiga_relacionada})", "atual")
+                    resultado_div.innerHTML = f"TAG JÁ ATUAL<br><small>Antiga era: {tag_antiga}</small>"
+                    adicionar_ao_historico(f"Atual: {tag_digitada} (Antiga: {tag_antiga})", "atual")
                 
-                # CASO 3: Não encontrou nada
                 else:
                     resultado_div.className = "erro"
-                    resultado_div.innerHTML = "TAG NÃO ENCONTRADA<br><small>Verifique a digitação</small>"
+                    resultado_div.innerHTML = "TAG NÃO ENCONTRADA"
 
-                # Limpa e foca no input para a próxima
                 document.getElementById("inputTag").value = ""
     </script>
 </body>
