@@ -3,38 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscador de Tags</title>
+    <title>Buscador de Tags Profissional</title>
     <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
     <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
     <style>
-        body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; padding: 50px; background: #f4f4f9; }
-        .container { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
-        input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; font-size: 16px; }
-        #resultado { margin-top: 20px; font-weight: bold; padding: 15px; border-radius: 4px; display: none; text-align: center; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; flex-direction: column; align-items: center; padding: 40px 20px; background: #f0f2f5; color: #333; }
+        .container { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.12); width: 100%; max-width: 450px; }
+        h2 { text-align: center; color: #1a73e8; margin-top: 0; }
+        p.instrucao { font-size: 13px; color: #666; text-align: center; margin-bottom: 20px; }
+        
+        input { width: 100%; padding: 12px 15px; margin: 10px 0; border: 2px solid #dfe1e5; border-radius: 8px; box-sizing: border-box; font-size: 16px; outline: none; transition: border-color 0.3s; }
+        input:focus { border-color: #1a73e8; }
+        
+        #resultado { margin-top: 20px; font-weight: bold; padding: 15px; border-radius: 8px; display: none; text-align: center; line-height: 1.5; }
         
         /* Cores de Status */
         .antiga { background-color: #fff3cd; color: #856404; border: 1px solid #ffeeba; }
         .atual { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
         .erro { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        small { display: block; margin-top: 5px; font-weight: normal; opacity: 0.8; }
 
         /* Estilo do Histórico */
-        .historico-container { margin-top: 30px; width: 100%; max-width: 400px; }
-        .historico-titulo { font-size: 14px; color: #666; margin-bottom: 10px; border-bottom: 1px solid #ddd; padding-bottom: 5px; }
-        .historico-item { background: #fff; padding: 8px 12px; margin-bottom: 5px; border-radius: 4px; border-left: 4px solid #ccc; font-size: 13px; display: flex; justify-content: space-between; }
-        .item-antiga { border-left-color: #ffc107; }
-        .item-atual { border-left-color: #28a745; }
+        .historico-container { margin-top: 30px; width: 100%; max-width: 450px; }
+        .historico-titulo { font-size: 14px; font-weight: bold; color: #5f6368; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px; }
+        .historico-item { background: white; padding: 10px 15px; margin-bottom: 8px; border-radius: 6px; border-left: 5px solid #ccc; font-size: 13px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .item-antiga { border-left-color: #fbbc04; }
+        .item-atual { border-left-color: #34a853; }
     </style>
 </head>
 <body>
 
     <div class="container">
         <h2>Consulta de Tags</h2>
-        <input type="text" id="inputTag" placeholder="Digite a TAG e aperte ENTER..." py-keyup="verificar_tag">
+        <p class="instrucao">Digite a TAG (antiga ou nova) e pressione <b>Enter</b></p>
+        <input type="text" id="inputTag" placeholder="Ex: TR-QTN-DH..." py-keyup="verificar_tag" autofocus>
         <div id="resultado"></div>
     </div>
 
     <div class="historico-container">
-        <div class="historico-titulo">Consultas Recentes</div>
+        <div class="historico-titulo">Últimas Consultas</div>
         <div id="listaHistorico"></div>
     </div>
 
@@ -48,18 +55,26 @@
         import pandas as pd
         from pyscript import document
 
-        # Carrega os dados com encoding para evitar erros de acentuação do Excel
-        df = pd.read_csv("tags.csv", encoding='latin1', sep=None, engine='python')
+        # 1. Carregamento e Limpeza Automática
+        try:
+            # Carrega tratando encoding e separadores comuns do Excel brasileiro
+            df = pd.read_csv("tags.csv", encoding='latin1', sep=None, engine='python')
+            
+            # Limpeza da coluna 'nova': remove o que estiver entre parênteses
+            # Ex: "TAG-01 - (TAG-02)" vira "TAG-01"
+            df['nova'] = df['nova'].astype(str).str.split(' \(').str[0].str.strip()
+            # Garante que a coluna 'antiga' também seja string e sem espaços
+            df['antiga'] = df['antiga'].astype(str).str.strip()
+        except Exception as e:
+            print(f"Erro ao carregar CSV: {e}")
 
         def adicionar_ao_historico(texto, tipo):
             lista = document.getElementById("listaHistorico")
             novo_item = document.createElement("div")
             novo_item.className = f"historico-item item-{tipo}"
             novo_item.innerHTML = texto
-            # Insere sempre no topo da lista
             lista.insertBefore(novo_item, lista.firstChild)
             
-            # Mantém apenas os últimos 5 itens para não poluir a tela
             if lista.children.length > 5:
                 lista.removeChild(lista.lastChild)
 
@@ -72,27 +87,32 @@
                     resultado_div.style.display = "none"
                     return
 
-                filtro_antiga = df[df['antiga'].astype(str).str.upper() == tag_digitada]
-                filtro_nova = df[df['nova'].astype(str).str.upper() == tag_digitada]
+                # Realiza a busca nas duas colunas
+                busca_na_antiga = df[df['antiga'].str.upper() == tag_digitada]
+                busca_na_nova = df[df['nova'].str.upper() == tag_digitada]
 
                 resultado_div.style.display = "block"
 
-                if not filtro_antiga.empty:
-                    tag_nova = filtro_antiga.iloc[0]['nova']
+                # CASO 1: Digitou uma TAG ANTIGA
+                if not busca_na_antiga.empty:
+                    tag_nova = busca_na_antiga.iloc[0]['nova']
                     resultado_div.className = "antiga"
-                    msg = f"Antiga: {tag_digitada} → Nova: {tag_nova}"
-                    resultado_div.innerHTML = f"Tag Antiga Detectada!<br>Nova Tag: {tag_nova}"
-                    adicionar_ao_historico(msg, "antiga")
+                    resultado_div.innerHTML = f"TAG ANTIGA DETECTADA<br>Nova: {tag_nova}"
+                    adicionar_ao_historico(f"<b>Antiga:</b> {tag_digitada} → <b>Nova:</b> {tag_nova}", "antiga")
                 
-                elif not filtro_nova.empty:
+                # CASO 2: Digitou uma TAG NOVA (Busca a antiga correspondente)
+                elif not busca_na_nova.empty:
+                    tag_antiga_relacionada = busca_na_nova.iloc[0]['antiga']
                     resultado_div.className = "atual"
-                    resultado_div.innerHTML = "Esta tag já é a atual."
-                    adicionar_ao_historico(f"Tag {tag_digitada} já está atualizada", "atual")
+                    resultado_div.innerHTML = f"ESTA TAG JÁ É A ATUAL<br><small>Correspondente antiga: {tag_antiga_relacionada}</small>"
+                    adicionar_ao_historico(f"<b>Atual:</b> {tag_digitada} (Antiga: {tag_antiga_relacionada})", "atual")
                 
+                # CASO 3: Não encontrou nada
                 else:
                     resultado_div.className = "erro"
-                    resultado_div.innerHTML = "Tag não encontrada."
+                    resultado_div.innerHTML = "TAG NÃO ENCONTRADA<br><small>Verifique a digitação</small>"
 
+                # Limpa e foca no input para a próxima
                 document.getElementById("inputTag").value = ""
     </script>
 </body>
