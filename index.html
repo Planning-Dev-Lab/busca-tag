@@ -26,31 +26,31 @@
 
     <py-config>
         packages = ["pandas"]
+        # O fetch garante que o arquivo CSV seja baixado para o sistema de arquivos virtual do PyScript
+        [[fetch]]
+        files = ["tags.csv"]
     </py-config>
 
-    <py-script>
+    <script type="py">
         import pandas as pd
-        from pyscript import display, document
+        from pyscript import document
 
-        # Carrega os dados (O CSV deve estar na mesma pasta ou URL)
-        # Para o GitHub Pages, use o caminho relativo
+        # Carrega os dados do arquivo que foi 'buscado' pelo py-config
         df = pd.read_csv("tags.csv")
 
         def verificar_tag(event):
-            # Só processa se for a tecla Enter (opcional, ou a cada tecla)
+            # Processa apenas quando a tecla Enter for pressionada
             if event.key == "Enter":
                 tag_digitada = document.getElementById("inputTag").value.strip().upper()
                 resultado_div = document.getElementById("resultado")
-                
+
                 if not tag_digitada:
                     resultado_div.style.display = "none"
                     return
 
                 # Lógica de busca usando Pandas
-                # Busca na coluna 'antiga'
-                filtro_antiga = df[df['antiga'].str.upper() == tag_digitada]
-                # Busca na coluna 'nova'
-                filtro_nova = df[df['nova'].str.upper() == tag_digitada]
+                filtro_antiga = df[df['antiga'].astype(str).str.upper() == tag_digitada]
+                filtro_nova = df[df['nova'].astype(str).str.upper() == tag_digitada]
 
                 resultado_div.style.display = "block"
 
@@ -58,17 +58,17 @@
                     tag_nova = filtro_antiga.iloc[0]['nova']
                     resultado_div.className = "antiga"
                     resultado_div.innerHTML = f"Tag Antiga Detectada!<br>Nova Tag: {tag_nova}"
-                
+
                 elif not filtro_nova.empty:
                     resultado_div.className = "atual"
                     resultado_div.innerHTML = "Esta tag já é a atual."
-                
+
                 else:
                     resultado_div.className = "erro"
                     resultado_div.innerHTML = "Tag não encontrada na base de dados."
 
-                # Limpa o input para a próxima busca
+                # Limpa o campo para a próxima consulta
                 document.getElementById("inputTag").value = ""
-    </py-script>
+    </script>
 </body>
 </html>
