@@ -1,6106 +1,1412 @@
-antiga;nova
-HVAC1-CR-1;CRAH1-CR1
-HVAC1-CR-2;CRAH1-CR2
-HVAC-1-UT-1;CRAH1-UT1
-HVAC-1-UT-2;CRAH1-UT2
-HVAC-1-UT-3;CRAH1-UT3
-HVAC-1-UT-4;CRAH1-UT4
-QE-HVAC1-CR-1;EP-CRAH1-CR1
-QE-HVAC1-CR-2;EP-CRAH1-CR2
-QE-HVAC1-UT-1;EP-CRAH1-UT1
-QE-HVAC1-UT-2;EP-CRAH1-UT2
-QE-HVAC1-UT-3;EP-CRAH1-UT3
-QE-HVAC1-UT-4;EP-CRAH1-UT4
-QF-AC-FIBER-A;EP-CRAH-F-A
-QF-ARCOND1-1;EP-CRAH1-1
-HVAC2-CR-1;CRAH2-CR1
-HVAC2-CR-2;CRAH2-CR2
-HVAC-2-UT-1;CRAH2-UT1
-HVAC-2-UT-2;CRAH2-UT2
-HVAC-2-UT-3;CRAH2-UT3
-HVAC-2-UT-4;CRAH2-UT4
-HVAC-2-UT-5;CRAH2-UT5
-QE-HVAC2-CR-1;EP-CRAH2-CR1
-QE-HVAC2-CR-2;EP-CRAH2-CR2
-QE-HVAC2-UT-1;EP-CRAH2-UT1
-QE-HVAC2-UT-2;EP-CRAH2-UT2
-QE-HVAC2-UT-3;EP-CRAH2-UT3
-QE-HVAC2-UT-4;EP-CRAH2-UT4
-QE-HVAC2-UT-5;EP-CRAH2-UT5
-QF-AC-FIBER-B;EP-CRAH-F-B
-QF-ARCOND2-1;EP-CRAH2-1
- HVAC1-1-5;CRAH1-1-5
- HVAC1-1-6;CRAH1-1-6
-QE-HVAC1-1-5;EP-CRAH1-1-5
-QE-HVAC1-1-6;EP-CRAH1-1-6
-CH1-1C;DP1-1CRAH-ER1-1-S1 
-HVAC1-1-1;CRAH1-1-1
-HVAC1-1-2;CRAH1-1-2
-HVAC1-1-3;CRAH1-1-3
-HVAC1-1-4;CRAH1-1-4
-CH1-1D;DP1-1-CRAH-ER1-2-S2 
-CH1-2D;DP1-2CRAH-ER1-1-S2 
- HVAC1-2-5;CRAH1-2-5
-HVAC1-2-6;CRAH1-2-6
-QE-HVAC1-2-5;EP-CRAH1-2-5
-QE-HVAC1-2-6;EP-CRAH1-2-6
-CH1-1D;DP1-1CRAH-ER1-2-S2 
-HVAC1-2-1;CRAH1-2-1
-HVAC1-2-2;CRAH1-2-2
-HVAC1-2-3;CRAH1-2-3
-HVAC1-2-4;CRAH1-2-4
-CH1-2C;DP1-2-CRAH-ER1-2-S1 
-CRAH1-3-6;CRAH1-3-6
-HVAC-1-3-5;CRAH1-3-5
-QE-CRAH1-3-5;EP-CRAH1-3-5
-QE-CRAH1-3-6;EP-CRAH1-3-6
-CH2-1C;DP1-3-CRAH-ER1-3-S1 
-CH3-2D;DPC-1-CRAH-ER1-3-S2  
-HVAC 1-3-2;CRAH1-3-2
-HVAC 1-3-3;CRAH1-3-3
-HVAC 1-3-4;CRAH1-3-4
-HVAC1-3-1;CRAH1-3-1
-CH2-2C;DP1-1CRAH-ER1-4-S1 
-CH3-1D;DP1-2CRAH-ER1-4-S2 
-HVAC1-4-1;CRAH1-4-1
-HVAC1-4-4;CRAH1-4-4
-CH2-2D;DPC-1CRAH-ER1-5-S2
-CH3-1C;DP1-3CRAH-ER1-5-S1 
-HVAC 1-5-1;CRAH1-5-1
-HVAC 1-5-4;CRAH1-5-4
-CH4-2C;DPC-2-CRAH-ER2-1-S2 
-CH6-1C;DP2-1-CRAH-ER2-1-S1 
-HVAC2-1-1;CRAH2-1-1
-HVAC2-1-2;CRAH2-1-2
-HVAC2-1-3;CRAH2-1-3
-HVAC2-1-4;CRAH2-1-4
-HVAC2-1-5;CRAH2-1-5
-HVAC2-1-6;CRAH2-1-6
-QE-HVAC2-1-5;EP-CRAH2-1-5
-QE-HVAC2-1-6;EP-CRAH2-1-6
-CH5-1D;DP2-1CRAH-ER2-2-S2 
-CH6-2C;DP2-2CRAH-ER2-2-S1 
-HVAC2-1-1;CRAH2-2-1
-HVAC2-2-2;CRAH2-2-2
-HVAC2-2-3;CRAH2-2-3
-HVAC2-2-4;CRAH2-2-4
-HVAC1-6-2;CRAHC-1-2
-HVAC1-6-3;CRAHC-1-3
-HVAC1-6-4;CRAHC-1-4
-CRAHC-1-5;CRAHC-1-5
-CRAHC-1-6;CRAHC-1-6
-QE-CRAHC-1-5;EP-CRAHC-1-5
-QE-CRAHC-1-6;EP-CRAHC-1-6
-CH2-1D;DP1-3CRAH-ERC-1-S2 
-CH3-2C;DPC-1CRAH-ERC-1-S1 
-HVAC1-6-1;CRAHC-1-1
-CH5-1D;DP2-1-CRAH-ERC-2-S2 
-HVAC 2-6-1;CRAHC-2-1
-HVAC 2-6-2;CRAHC-2-2
-HVAC 2-6-3;CRAHC-2-3
-HVAC 2-6-4;CRAHC-2-4
-CH4-2D;DPC-2-CRAH-ER-C2-S1 
-HVAC2-6-5;CRAHC-2-5
-HVAC2-6-6;CRAHC-2-6
-QE-HVAC2-6-5;EP-CRAHC-2-5
-QE-HVAC2-6-6;EP-CRAHC-2-6
-ATS-QF-ARCOND-1-1;ATS-EP-CRAH1-1
-ATS-QF-ARCOND-2-1;ATS-EP-CRAH2-1
-HVAC1-MLB-1-1;CRAH-MLB1-1
-HVAC1-MLB-1-2;CRAH-MLB1-2
-CH3-2E;DP-C-1-CRAH-MLB-1 
-HVAC-UP-1;CRAH-UP-1
- HVAC-UP-2;CRAH-UP-2
-HVAC1-BT-2;CRAH-BAT-MLB1-2
-QE-HVAC1-BT-1;EP-CRAH1-BAT1
-HVAC1-BT-1;CRAH-BAT-MLB1-1
-QE-HVAC1-BT-2;EP-CRAH1-BAT2
-QF-ARCOND1-2;EP-CRAH-MLB1
-QE-HVAC1-UP-2;EP-CRAH1-UP-2
-QE-HVAC1-UP-1;EP-CRAH1-UP-1
-HVAC2-MB-2;CRAH2-MLB2-2
-HVAC2-MB-1;CRAH2-MLB2-1
-CH4-2E;DP-C-2-CRAH-MLB-2
-HVAC2-BT-2;CRAH2-BAT-MLB2-2
-HVAC2-UP-2;CRAH2-UP-MLB2-2
-HVAC2-UP-1;CRAH2-UP-MLB2-1
-QE-HVAC2-BT-1;EP-CRAH2-BAT1
-QF-ARCOND2-2;EP-CRAH-MLB2
-QE-HVAC2-BT-2;EP-CRAH2-BAT2
-HVAC2-BT-1;CRAH1-BAT-MLB2-1
-QE-HVAC2-UP-2;EP-CRAH2-UP-2
-QE-HVAC2-UP-1;EP-CRAH2-UP-1
-MDP-CH1-2;DP1-2-CRAH-TA 
-MDP-CH1-1;DP1-1-CRAH-TA
-MDP-CH2-1;DP1-3-CRAH-TA
-MDP-CH3-2;DPC-1-CRAH-TA 
-MDP-CH4-2;DP-C-2-CRAH-TA 
-MDP-CH6-1;DP2-1-CRAH-TA
-MDP-CH6-2;DP2-2-CRAH-TA
-ACDP-CH1-2B;DP1-1-CRAH-TA-S2 
-ACDP-CH1-1B;DP1-2-CRAH-TA-S2 
-ACDP-CH1-2A;DP1-2-CRAH-TA-S1 
-ATS-ACDP-CH1-1B;ATS-DP1-1CRAH-TA-S2 
-ATS-ACDP-CH1-2A;ATS-DP1-2CRAH-TA-S1 
-ATS-ACDP-CH1-2B;ATS-DP1-2CRAH-TA-S2 
-CRAH 1.A.1;CRAH1-A01
-CRAH 1.A.2;CRAH1-A02
-CRAH 1.A.11;CRAH1-A11
-CRAH 1.A.12;CRAH1-A12
-CRAH 1.A.13;CRAH1-A13
-CRAH 1.A.14;CRAH1-A14
-CRAH 1.A.15;CRAH1-A15
-CRAH 1.A.16;CRAH1-A16
-CRAH 1.A.17;CRAH1-A17
-CRAH 1.A.18;CRAH1-A18
-CRAH 1.A.19;CRAH1-A19
-CRAH 1.A.20;CRAH1-A20
-CRAH 1.A.3;CRAH1-A03
-CRAH 1.A.21;CRAH1-A21
-CRAH 1.A.22;CRAH1-A22
-CRAH 1.A.23;CRAH1-A23
-CRAH 1.A.24;CRAH1-A24
-CRAH 1.A.4;CRAH1-A04
-CRAH 1.A.5;CRAH1-A05
-CRAH 1.A.6;CRAH1-A06
-CRAH 1.A.7;CRAH1-A07
-CRAH 1.A.8;CRAH1-A08
-CRAH 1.A.9;CRAH1-A09
-CRAH 1.A.10;CRAH1-A10
-ATS-ACDP-CH1-1A;ATS-DP1-1CRAH-TA-S1 
-ACDP-CH1-1A;DP1-1-CRAH-TA-S1 
-ACDP-CH2-1B;DP1-3-CRAH-TA-S2 
-ACDP-CH3-2A;DPC-1-CRAH-TA-S1 
-ACDP-CH3-2B;DPC-1-CRAH-TA-S2 
-ATS-ACDP-CH2-1B;ATS-DP1-3CRAH-TA-S2 
-ATS-ACDP-CH3-2-1B;ATS-DPC-1CRAH-TA-S1 
-ATS-ACDP-CH3-2-2B;ATS-DPC-1CRAH-TA-S2 
-CRAH 1.B.1;CRAH1-B01
-CRAH 1.B.2;CRAH1-B02
-CRAH 1.B.11;CRAH1-B11
-CRAH 1.B.12;CRAH1-B12
-CRAH 1.B.13;CRAH1-B13
-CRAH 1.B.14;CRAH1-B14
-CRAH 1.B.15;CRAH1-B15
-CRAH 1.B.16;CRAH1-B16
-CRAH 1.B.17;CRAH1-B17
-CRAH 1.B.18;CRAH1-B18
-CRAH 1.B.19;CRAH1-B19
-CRAH 1.B.20;CRAH1-B20
-CRAH 1.B.3;CRAH1-B03
-CRAH 1.B.21;CRAH1-B21
-CRAH 1.B.22;CRAH1-B22
-CRAH 1.B.23;CRAH1-B23
-CRAH 1.B.24;CRAH1-B24
-CRAH 1.B.4;CRAH1-B04
-CRAH 1.B.5;CRAH1-B05
-CRAH 1.B.6;CRAH1-B06
-CRAH 1.B.7;CRAH1-B07
-CRAH 1.B.8;CRAH1-B08
-CRAH 1.B.9;CRAH1-B09
-CRAH 1.B.10;CRAH1-B10
-ATS-ACDP-CH2-1A;ATS-DP1-3CRAH-TA-S1 
-ACDP-CH2-1A;DP1-3-CRAH-TA-S1 
-C04015CRAH2C01;CRAH2-C01
-C04015CRAH2C04;CRAH2-C04
-C04015CRAH2C03;CRAH2-C03
-C04015CRAH2C21;CRAH2-C21
-C04015CRAH2C22;CRAH2-C22
-C04015CRAH2C23;CRAH2-C23
-C04015CRAH2C24;CRAH2-C24
-;CRAH2-C07
-ATS-ACDP-CH5-1A;ATS-DPC-2CRAH-TA-S1
-ACDP-CH6-1A;DP2-1-CRAH-TA-S1 
-;CRAH2-C08
-;CRAH2-C09
-;CRAH2-C10
-;CRAH2-C12
-C04015CRAH2C02;CRAH2-C02
-ATS-ACDP-CH6-2B;ATS-DP2-1CRAH-TA-S2 
-C04013CRAH2D01;CRAH2-D01
-C04013CRAH2D02;CRAH2-D02
-C04013CRAH2D03;CRAH2-D03
-C04013CRAH2D04;CRAH2-D04
-C04013CRAH2D21;CRAH2-D21
-C04013CRAH2D22;CRAH2-D22
-C04013CRAH2D23;CRAH2-D23
-C04013CRAH2D24;CRAH2-D24
-;CRAH2-D07
-ATS-ACDP-CH6-1A;ATS-DP2-1CRAH-TA-S1 
-ACDP-CH6-2B;DP2-1-CRAH-TA-S2 
-;CRAH2-D08
-;CRAH2-D09
-;CRAH2-D10
-;CRAH2-D11
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
-;
+antiga;nova;local
+"""+DS2-3-1""";GCP2-3-1;
+"""+DS2-3-2""";GCP2-3-2;
+BCO-CAP. 200KVAR;CB-MER2;SALA MS1-3
+BCO. CAPACITORES 200KVAR;CB-MER6;Sala-06 Chiller
+QLF-2-4;LPP-2-4;
+QLF-1-4;LPP-1-4;
+QTN-1-4;EP-1-4;
+QTN-2-4;EP-2-4;
+TR-QTN-2-4;TR-EP-2-4;
+TR-QTN-1-4;TR-EP-1-4;
+QTN-DH-1-1-1;EP-DH1-1-1;Corredor Técnico
+QTN-DH-1-1-2;EP-DH1-1-2;Corredor Técnico
+QTN-DH-1-2-1;EP-DH1-2-1;Corredor Técnico
+QTN-DH-1-2-2;EP-DH1-2-2;Corredor Técnico
+TR-QTN-DH-1-1-2;TR-EP-DH-1-1-2;
+TR-QTN-DH-1-2-2;TR-EP-DH-1-2-2;
+TR-QTN-DH-1-1-1;TR-EP-DH-1-1-1;
+TR-QTN-DH-1-2-1;TR-EP-DH-1-2-1;
+QLF-DH-2-2-1;LPP-DH-2-2-1;
+TR-QTN-DH-2-2-1;TR-EP-DH-2-2-1;
+QTN-DH2-2-1;TR-EP-DH-2-1-1;
+QTN-DH2-1-1;EP-DH2-1-1;
+TR-QTN-DH-2-1-1;TR-EP-DH-2-1-1;
+QLF-DH-2-1-1;LPP-DH-2-1-1;
+QLF-DH-2-2-2;LPP-DH-2-2-2;
+TR-QTN-DH-2-2-2;TR-EP-DH-2-2-2;
+QTN-DH2-2-2;EP-DH2-2-2;
+TR-QTN-DH-2-1-2;TR-EP-DH-2-1-2;
+QLF-DH-2-1-2;LPP-DH-2-1-2;
+QLF-1P;LPP-1P;SALAVPA
+QTN-1P;EP-1P;SALAVPA
+FP 1.2;FP1-2;Torre de resfriamento
+FP 2.1;FP1-3;Torre de resfriamento
+FP 3.2;FPC-1;Torre de resfriamento
+QA-EXT-02;AP-EXT-02;
+QFB-REC-02;EP-REC-T02;ETE
+QF-TRAFO-IL;LPP-TR;ETE
+QFB-REC-T01;EP-REC-T01;ETE
+QGLF-EXT-01;LPP-EXT-01;ETE
+QGL-EXT-1;LPP-EXT-1;ETE
+-;TMT1;AE
+-;TMT2;AE
+ACC 1 A;CH-GS01;AE
+ACC 1 B;CH-GS02;AE
+BSRAC;BSRAC;AE
+C03ADB1TQP1;TK1-MTP01;AE
+C03ADB1TQP2;TK1-MTP02;AE
+C03ADB1TQP3;TK1-MTP03;AE
+C03ADB2TQP1;TK2-MTP01;AE
+C03ADB2TQP2;TK2-MTP02;AE
+C03ADB2TQP3;TK2-MTP03;AE
+C03ADTQP1;DMT-1;AE
+C03ADTQP2;DMT-2;AE
+C03ADTQP3;DMT-3;AE
+C03ADTQP4;DMT-4;AE
+C03ADTQP5;DMT-5;AE
+C03ADTQP6;DMT-6;AE
+C04AEBC01;LB01;AE
+C04AEBC01;LB02;AE
+CT- 1.1;CT1-1;AE
+CT- 1.2;CT1-2;AE
+CT- 2.1;CT1-3;AE
+CT- 3.1;CT2-1;AE
+CT- 3.2;CTC-1;AE
+FILTRO AQUAFILTER 1.1 1.2;WF03;AE
+FILTRO AQUAFILTER 2.1;WF01;AE
+FILTRO AQUAFILTER 3.2;WF02;AE
+TANQUES FUTUROS ;TKFUTURE1;AE
+TANQUES FUTUROS ;TKFUTURE2;AE
+TANQUES FUTUROS ;TKFUTURE3;AE
+TANQUES FUTUROS ;TKFUTURE4;AE
+TANQUES FUTUROS ;TKFUTURE5;AE
+TANQUES FUTUROS ;TKFUTURE6;AE
+;CT2-2;AE
+BOMBA-1;BR-ETE1;ETE
+BOMBA-2;BR-ETE2;ETE
+CET001TR02;TR02-ETE;ETE
+TRAFO-HELIPNTO;TR03-ETE;ETE
+CPO001TR01;TR01-RP;PORTARIA
+QCA-PORT-01;CCP-RECP-1;SALA TÉCNICA PORTARIA
+QCA-PORT-02;CCP-RECP-2;SALA TÉCNICA PORTARIA
+SEC-EXT;SC-EXT1;AE
+HVAC SE-01;SPLITSE-1;SALA BATERIA/SUBESTAÇÃO
+RETIFICADOR CB-01;RECT-SUB;SALA SUBESTAÇÃO 88 KV
+-;CT-2;SUBESTAÇÃO - AREA EXTERNA
+-;PT-1;SUBESTAÇÃO - AREA EXTERNA
+-;PT-2;SUBESTAÇÃO - AREA EXTERNA
+CSE001TR1;TR1;SUBESTAÇÃO - AREA EXTERNA
+BB RET SUB - 02;BB-RECT-SUB02;SUBESTAÇÃO - AREA EXTERNA
+PGMT-01;MS1;SUBESTAÇÃO - AREA EXTERNA
+CSE001TR2;TR2;SUBESTAÇÃO - AREA EXTERNA
+BB RET SUB - 01;BB-RECT-SUB01;SUBESTAÇÃO - AREA EXTERNA
+CSECUBTRAUX2;TRAUX-02;SUBESTAÇÃO - AREA EXTERNA
+-;CT-1;SUBESTAÇÃO - AREA EXTERNA
+CSECUBTRAUX1;TRAUX-01;SUBESTAÇÃO - AREA EXTERNA
+PGMT-02;MS2;SUBESTAÇÃO - AREA EXTERNA
+PAINEL P2 CONTROLE;P2-CONTROL;SUBESTAÇÃO
+PAINEL P1 PROTEÇÃO;P1-PROTECTION;SUBESTAÇÃO
+PAINEL PMF MEDIÇÃO DE FATURAMENTO;BILLING-ELE-PANEL;SUBESTAÇÃO
+PAINEL DE TRANSFERÊNCIA TRAFOS AUXILIARES;ATS-TRAUX-01-02;SUBESTAÇÃO
+QE-01-HVAC-SE-01;EP-SPLITSE-1;SUBESTAÇÃO
+SECCIONADORA 2;SC-EXT2;SUBESTAÇÃO
+DISJUNTOR DE ENTRADA 1;DJ-52-1;SUBESTAÇÃO
+DISJUNTOR DE ENTRADA 2;DJ-52-2;SUBESTAÇÃO
+SECCIONADORA 3;SC-EXT3;SUBESTAÇÃO
+SECCIONADORA 4;SC-EXT4;SUBESTAÇÃO
+SECCIONADORA 5;SC-EXT5;SUBESTAÇÃO
+SECCIONADORA 6;SC-EXT6;SUBESTAÇÃO
+TRANSFORMADOR DE CORRENTE;CT-3;SUBESTAÇÃO
+TRANSFORMADOR DE CORRENTE;CT-4;SUBESTAÇÃO
+TRANSFORMADOR DE CORRENTE;CT-5;SUBESTAÇÃO
+TRANSFORMADOR DE CORRENTE;CT-6;SUBESTAÇÃO
+TRANSFORMADOR DE CORRENTE;CT-7;SUBESTAÇÃO
+TRANSFORMADOR DE CORRENTE;CT-8;SUBESTAÇÃO
+TRANSFORMADOR DE CORRENTE;CT-9;SUBESTAÇÃO
+TRANSFORMADOR DE CORRENTE;CT-10;SUBESTAÇÃO
+TRANSFORMADOR DE POTENCIAL;PT-3;SUBESTAÇÃO
+TRANSFORMADOR DE POTENCIAL;PT-4;SUBESTAÇÃO
+TRANSFORMADOR DE POTENCIAL;PT-5;SUBESTAÇÃO
+TRANSFORMADOR DE POTENCIAL;PT-6;SUBESTAÇÃO
+TRANSFORMADOR DE POTENCIAL;PT-7;SUBESTAÇÃO
+TRANSFORMADOR DE POTENCIAL;PT-8;SUBESTAÇÃO
+PAINEL 3;EP-BB-01-02;SUBESTAÇÃO
+QDLF-1;LPP-1;SUBESTAÇÃO
+QA-EXT-01;AP-EXT-01;SALA SUBESTAÇÃO
+PH-1S-1;PH-1S-1;
+HVAC1 GA-1;FC-GA;Guarita
+QA-EXT-03;AP-EXT-03;PORTARIA
+CPO008UPSPORT;UPS-PORT;PORTARIA
+BCO BAT UPS PORTARIA 01;BB-UPSPORT01;PORTARIA
+TRAFO-UPS-15KVA-PORTARIA;TRAF-UPS15KVA-PORT;PORTARIA
+VRV 1-6;VRV1-6;PORTARIA
+VRV 2-6;VRV2-6;PORTARIA
+VRV 3-6;VRV3-6;PORTARIA
+VRV 4-6;VRV4-6;PORTARIA
+VRV 5-6;VRV5-6;PORTARIA
+VRV 6-6;VRV6-6;PORTARIA
+QCA-TERR-01;CCP-FL00-1;SALA TÉCNICA
+QCA-TERR-02;CCP-FL00-2;SALA TÉCNICA
+HVAC 3S-5;FC3S-5;
+HVAC 3S-4;FC3S-4;
+HVAC 3S-1;FC3S-1;
+HVAC 3S-2;FC3S-2;
+VAV-1-3S1;VAV-1-FL0-1;
+VE-S1-1;FAN-S1-1;
+VAV-1-3S2;VAV-1-FL0-2;
+VAV-1-3S3;VAV-1-FL0-3;
+VAV-1-3S4;VAV-1-FL0-4;
+VAV-1-3S5;VAV-1-FL0-5;
+VAV-2-3S1;VAV-2-FL0-1;
+VAV-2-3S1;VAV-2-FL0-1;
+VAV-3-3S1;VAV-3-FL0-1;
+VAV-3-3S2;VAV-3-FL0-2;
+VAV-3-3S3;VAV-3-FL0-3;
+VAV-4-3S1;VAV-4-FL0-1;
+VAV-5-3S1;VAV-5-FL0-1;
+VAV-5-3S2;VAV-5-FL0-2;
+VE-3S-2;VE-FL0-2;
+VP-3S-1;FAN3S-1;
+VE-3S-3;VE-FL0-3;
+VE-3S-4;VE-FL0-4;
+VE-3S-5;VE-FL0-5;
+VE-3S-6;VE-FL0-6;
+VE-3S-7;VE-FL0-7;
+VE-3S-1;FAN3S-1;
+V1-S1-3;FAN-S1-3;
+VE 1 CR1;FAN-CR1;
+VP-3S-2;FAN3S-2;
+VI-PO-01;FAN-PO-01;
+;FC3S-3 ;
+;FC3S-3 ;
+QCA-1PAV-01;CCP-FL01-1;SALA TÉCNICA
+HVAC 2S-1;FC2S-1;
+HVAC 2S-3;FC2S-3;
+HVAC 2S-2;FC2S-2;
+VAV-1-2S2;VAV-1-FL01-2;
+VAV-2-2S1;VAV-2-FL01-1;
+VAV-1-2S1;VAV-1-FL01-1;
+VAV-1-2S5;VAV-1-FL01-5;
+VAV-1-2S3;VAV-1-FL01-3;
+VAV-2-2S5;VAV-2-FL01-5;
+VAV-2-2S6;VAV-2-FL01-6;
+VAV-1-2S4;VAV-1-FL01-4;
+VAV-2-2S2;VAV-2-FL01-2;
+VAV-1-2S6;VAV-1-FL01-6;
+VAV-2-2S3;VAV-2-FL01-3;
+VAV-2-2S7;VAV-2-FL01-7;
+VAV-2-2S4;VAV-2-FL01-4;
+VAV-3-2S2;VAV-3-FL01-2;
+VAV-3-2S1;VAV-3-FL01-1;
+VAV-1-2S7;VAV-1-FL01-7;
+VAV-2-2S9;VAV-2-FL01-9;
+VAV-2-2S8;VAV-2-FL01-8;
+QCA-2PAV-01;CCP-FL02-1;SALA TÉCNICA
+HVAC 1S-1;FC1S-1;
+HVAC 1S-3;FC1S-3;
+HVAC 1S -2 ;FC1S -2 ;
+VAV-1-1S2;VAV-1-FL02-2;
+VAV-2-1S2;VAV-2-FL02-2;
+VAV-4-1S1;VAV-4-FL02-1;
+VAV-2-1S1;VAV-2-FL02-1;
+VAV-1-1S7;VAV-1-FL02-7;
+VAV-1-1S5;VAV-1-FL02-5;
+VAV-2-1S3;VAV-2-FL02-3;
+VAV-3-1S1;VAV-3-FL02-1;
+VAV-4-1S2;VAV-4-FL02-2;
+EX2-1-6;EX2-FL03-FL3-1-6;
+VAV-1-1S1;VAV-1-FL02-1;
+VAV-3-1S2;VAV-3-FL02-2;
+VAV-1-1S6;VAV-1-FL02-6;
+VAV-1-1S4;VAV-1-FL02-4;
+VAV-1-1S3;VAV-1-FL02-3;
+;FC1S-4 ;
+;FC1S-4 ;
+BB01-UPSBMS01;BB01-UPS-BMS1;BMS
+BB01-UPSBMS02;BB01-UPS-BMS2;BMS
+BB02-UPSBMS01;BB02-UPS-BMS1;BMS
+BB02-UPSBMS02;BB02-UPS-BMS2;BMS
+QCA-3PAV-06;ACP-6;BMS
+QCA-EMERGENCIA;ACP-EMERGENCY;BMS
+QCA-GER-TER;ACP-GENERAL;BMS
+QSDAI-01;EP-FAS1;BMS
+QSDAI-BAT-01;EP-FAS-BAT1;BMS
+TRBMS-1;TRBMS1;BMS
+TRBMS-2;TRBMS2;BMS
+UPS1-BMS;UPS1-BMS;BMS
+UPS2-BMS;UPS2-BMS;BMS
+QE-VI1-UT-1;EP-VI1-UT1;
+HVAC1-CR-1;CRAH1-CR1;HVAC
+HVAC1-CR-2;CRAH1-CR2;HVAC
+HVAC-1-UT-1;CRAH1-UT1;HVAC
+HVAC-1-UT-2;CRAH1-UT2;HVAC
+HVAC-1-UT-3;CRAH1-UT3;HVAC
+HVAC-1-UT-4;CRAH1-UT4;HVAC
+QE-HVAC1-CR-1;EP-CRAH1-CR1;HVAC
+QE-HVAC1-CR-2;EP-CRAH1-CR2;HVAC
+QE-HVAC1-UT-1;EP-CRAH1-UT1;HVAC
+QE-HVAC1-UT-2;EP-CRAH1-UT2;HVAC
+QE-HVAC1-UT-3;EP-CRAH1-UT3;HVAC
+QE-HVAC1-UT-4;EP-CRAH1-UT4;HVAC
+QE-EX1-GS-1;EP-EXT1-GS1;HVAC
+QF-AC-FIBER-A;EP-CRAH-F-A;HVAC
+QF-ARCOND1-1;EP-CRAH1-1;HVAC
+HVAC2-CR-1;CRAH2-CR1;HVAC
+HVAC2-CR-2;CRAH2-CR2;HVAC
+HVAC-2-UT-1;CRAH2-UT1;HVAC
+HVAC-2-UT-2;CRAH2-UT2;HVAC
+HVAC-2-UT-3;CRAH2-UT3;HVAC
+HVAC-2-UT-4;CRAH2-UT4;HVAC
+HVAC-2-UT-5;CRAH2-UT5;HVAC
+QE-VI2-UT-1;EP-FAN-UT2;HVAC
+QE-HVAC2-CR-1;EP-CRAH2-CR1;HVAC
+QE-HVAC2-CR-2;EP-CRAH2-CR2;HVAC
+QE-HVAC2-UT-1;EP-CRAH2-UT1;HVAC
+QE-HVAC2-UT-2;EP-CRAH2-UT2;HVAC
+QE-HVAC2-UT-3;EP-CRAH2-UT3;HVAC
+QE-HVAC2-UT-4;EP-CRAH2-UT4;HVAC
+QE-HVAC2-UT-5;EP-CRAH2-UT5;HVAC
+QE-EX2-GS-1;EP-EXT2-GS1;HVAC
+QF-AC-FIBER-B;EP-CRAH-F-B;HVAC
+QF-ARCOND2-1;EP-CRAH2-1;HVAC
+QFA-GMG-A-1;EP-G-DCS-A1;FONTE C.C-A
+QF-RETIF-CROSS-A;EP-RECT-CROSS-A;FONTE C.C-A
+TR-FR-CCA;TRPA-DCS-1;FONTE C.C-A
+BB FCC A1;BB-DCS-1-1;SALA FCC
+BB FCC A2;BB-DCS-1-2;SALA FCC
+TR-PA-20KVA;TR-DCS-1;SALA FCC
+RETIFICADOR CB-1;RECT-DCS-1;SALA FCC-A
+ATS RETF. CCA;ATS-RECT-DCS-1;FCC-A
+QG-CC-1A;EP-CC-1A;FCC-A
+QF-TA-PAINEIS;EP-TA-PANEL;FCC-A
+TR-FR-CCA;TR-DCS-1;FCC-A
+Painel 1;BD-DCS-1;FCC-A
+QFA-GMG-B1;EP-G-DCS-2-B1;FONTE C.C-B
+QF-RETIFIC-CROSS-B;EP-RECT-CROSS-B;FONTE C.C-B
+QG-CC-1B;EP-CC-1B;FONTE C.C-B
+BB FCC B1;BB-DCS-2-1;SALA FCC
+BB FCC B2;BB-DCS-2-2;SALA FCC
+TR-FR-FCCB;TR-DCS-2;SALA FCC
+C03066FRCCB03;RECT-DCS-2;SALA FCC-B
+PAINEL 02;BD-DCS-2;FCC-B
+TR-PA-20KVA;TR-PA-DCS-2;FCC-B
+ATS RETIF.CCB;ATS-RECT-DCS-2;FCC-B
+QF-TB-PAINEIS;EP-TB-PANEL;FCC-B
+C0300TRPRD2;TRPRD-2;ELEVADOR
+ HVAC1-1-5;CRAH1-1-5;Sala de UPS 1.1
+ HVAC1-1-6;CRAH1-1-6;Sala de UPS 1.1
+BCO.CAP 300 KVAR;CB1-ER1-1;Sala de UPS 1.1
+QA-01;AP-01;Sala de UPS 1.1
+QE-EX1-1-5;EP-EX1-1-5;Sala de UPS 1.1
+QE-EX1-1-6;EP-EX1-1-6;Sala de UPS 1.1
+QE-HVAC1-1-5;EP-CRAH1-1-5;Sala de UPS 1.1
+QE-HVAC1-1-6;EP-CRAH1-1-6;Sala de UPS 1.1
+(+)COD1-1-1;DSE-EXT1-4-1;SALA ER1-1
+(+)COD1-2-1;DSE-EXT1-5-1;SALA ER1-1
+CH1-1C;DP1-1CRAH-ER1-1-S1 ;SALA ER1-1
+COD1-1-1;DSE-STS1-1-1;SALA ER1-1
+COD1-2-1;DSE-STS1-1-2;SALA ER1-1
+CS1-1;DSE-UPS1-1;SALA ER1-1
+DS1-1;DSE-M1-1;SALA ER1-1
+HVAC1-1-1;CRAH1-1-1;SALA ER1-1
+HVAC1-1-2;CRAH1-1-2;SALA ER1-1
+HVAC1-1-3;CRAH1-1-3;SALA ER1-1
+HVAC1-1-4;CRAH1-1-4;SALA ER1-1
+STS1-1-1-1;STS1-1-1-1;SALA ER1-1
+STS1-1-2-1;STS1-1-1-2;SALA ER1-1
+STS1-1-3-1;STS1-1-1-3;SALA ER1-1
+STS1-1-4-1;STS1-1-1-4;SALA ER1-1
+STS1-2-1-1;STS1-1-2-1;SALA ER1-1
+STS1-2-2-1;STS1-1-2-2;SALA ER1-1
+STS1-2-3-1;STS1-1-2-3;SALA ER1-1
+STS1-2-4-1;STS1-1-2-4;SALA ER1-1
+TR1-CS1;TR-ER1-1;SALA ER1-1
+(++)DS1-1-2;GCP1-1-2;SALA ER1-1 
+BD1-1-1;BB1-1-1-1;SALA ER1-1 
+BD1-2-1;BB1-1-1-2;SALA ER1-1 
+QF-EXT1-4;EP-EXT1-4;SALA ER1-1 
+(+)DS1-1-1;GCP1-1-1;SALA ER1-1 
+CH1-1D;DP1-1-CRAH-ER1-2-S2 ;SALA ER1-1 
+ICOM-1;ICOM-1;SALA ER1-1 
+UPS1-1-1;UPS1-1-1;SALA ER1-1 
+UPS1-2-1;UPS1-1-2;SALA ER1-1 
+STS1-2-1-1;STS1-1-2-1;SALA ER1-1 
+CH1-2D;DP1-2CRAH-ER1-1-S2 ;SALA ER1-2
+Retificador 1;RECT1-1-1-1;
+Retificador 2;RECT1-1-1-2;
+PDB1-1-1;BDP1-1-1-1;
+PDB1-2-1;BDP1-1-1-2;
+ HVAC1-2-5;CRAH1-2-5;Sala de UPS 1.2
+BCO.CAP 300 KVAR;CB1-ER1-2;Sala de UPS 1.2
+HVAC1-2-6;CRAH1-2-6;Sala de UPS 1.2
+QA-02;AP-02;Sala de UPS 1.2
+QE-EX1-2-5;EP-EX1-2-5;Sala de UPS 1.2
+QE-EX1-2-6;EP-EX1-2-6;Sala de UPS 1.2
+QE-HVAC1-2-5;EP-CRAH1-2-5;Sala de UPS 1.2
+QE-HVAC1-2-6;EP-CRAH1-2-6;Sala de UPS 1.2
+COD1-2-2;DSE-STS1-2-2;SALA ER1-1
+CS1-2;DSE-UPS1-2;SALA ER1-1
+CH1-1D;DP1-1CRAH-ER1-2-S2 ;SALA ER1-2
+CS1-2;DSE-UPS1-2 ;SALA ER1-2
+DS1-2;DSE-M1-2;SALA ER1-2
+HVAC1-2-1;CRAH1-2-1;SALA ER1-2
+HVAC1-2-2;CRAH1-2-2;SALA ER1-2
+HVAC1-2-3;CRAH1-2-3;SALA ER1-2
+HVAC1-2-4;CRAH1-2-4;SALA ER1-2
+PDB 1-1-2;BDP-1-2-1-2;SALA ER1-2
+PDB 1-2-2;BDP-1-2-2-2;SALA ER1-2
+CH1-2C;DP1-2-CRAH-ER1-2-S1 ;SALA ER1-2
+STS1-1-1-2;STS1-2-1-1;SALA ER1-2
+STS1-1-2-2;STS1-2-1-2;SALA ER1-2
+STS1-1-3-2;STS1-2-1-3;SALA ER1-2
+STS1-1-4-2;STS1-2-1-4;SALA ER1-2
+STS1-2-1-2;STS1-2-2-1;SALA ER1-2
+STS1-2-2-2;STS1-2-2-2;SALA ER1-2
+STS1-2-3-2;STS1-2-2-3;SALA ER1-2
+STS1-2-4-2;STS1-2-2-4;SALA ER1-2
+TR1-CS2;TR-ER1-2;SALA ER1-2
+UPS1-1-2;UPS1-2-1;SALA ER1-2
+UPS1-2-2;UPS1-2-2;SALA ER1-2
+DS1-2-1;GCP1-2-1;
+DS1-2-2;GCP1-2-2;
+QSDAI-04;QSDAI-04;
+BD1-1-2;BD1-2-1-2;
+ICOM-2;ICOM-2;
+BD1-2-2;BD1-2-2-2;
+QF-EXT1-5;EP-EXT1-5;
+Retificador 1;RECT1-2-1-1;
+Retificador 2;RECT1-2-1-2;
+BCO-CAP. 300KVAR;CB1-ER1-3;Sala de UPS 1.3
+CRAH1-3-6;CRAH1-3-6;Sala de UPS 1.3
+HVAC-1-3-5;CRAH1-3-5;Sala de UPS 1.3
+QA-03;AP-03;Sala de UPS 1.3
+QE-CRAH1-3-5;EP-CRAH1-3-5;Sala de UPS 1.3
+QE-CRAH1-3-6;EP-CRAH1-3-6;Sala de UPS 1.3
+QE-EX1-3-5;EP-EX1-3-5;Sala de UPS 1.3
+QE-EX1-3-6;EP-EX1-3-6;Sala de UPS 1.3
+"(+)COD1-1-3""";DSE-EXT-1-3-1;SALA ER1-3
+CH2-1C;DP1-3-CRAH-ER1-3-S1 ;SALA ER1-3
+CH3-2D;DPC-1-CRAH-ER1-3-S2  ;SALA ER1-3
+COD1-1-3;DSE-STS1-3-1;SALA ER1-3
+COD1-2-3;DSE-STS1-3-2;SALA ER1-3
+CS1-3;DSE-UPS1-3;SALA ER1-3
+QF-EXT1-6;EP-EXT1-6;SALA ER1-3
+DS1-3;DSE-M1-3;SALA ER1-3
+DS1-3-2;GCP1-3-2;SALA ER1-3
+HVAC 1-3-2;CRAH1-3-2;SALA ER1-3
+HVAC 1-3-3;CRAH1-3-3;SALA ER1-3
+HVAC 1-3-4;CRAH1-3-4;SALA ER1-3
+HVAC1-3-1;CRAH1-3-1;SALA ER1-3
+DS1-3-1;GCP1-3-1;SALA ER1-3
+PDB-1-1-2;BDP-1-3-1-1;SALA ER1-3
+PDB-1-2-3;BDP-1-3-1-2;SALA ER1-3
+ICOM-3;ICOM-3;SALA ER1-3
+STS1-1-1-3;STS1-3-1-1;SALA ER1-3
+STS1-1-2-3;STS1-3-1-2;SALA ER1-3
+STS1-1-3-3;STS1-3-1-3;SALA ER1-3
+STS1-1-4-3;STS1-3-1-4;SALA ER1-3
+STS1-2-1-3;STS1-3-2-1;SALA ER1-3
+STS1-2-2-3;STS1-3-2-2;SALA ER1-3
+STS1-2-3-3;STS1-3-2-3;SALA ER1-3
+STS1-2-4-3;STS1-3-2-4;SALA ER1-3
+TR1-CS3;TR-ER1-3;SALA ER1-3
+UPS1-1-3;UPS1-3-1;SALA ER1-3
+UPS1-2-3;UPS1-3-2;SALA ER1-3
+BD1-1-3;BD1-3-1-1;
+Retificador 1;RECT1-3-1-1;
+Retificador 2;RECT1-3-1-2;
+BD1-2-3;BD1-3-1-2;
+QA-04;AP-04;Sala de UPS 1.4
+CH2-2C;DP1-1CRAH-ER1-4-S1 ;SALA ER1-4
+CH3-1D;DP1-2CRAH-ER1-4-S2 ;SALA ER1-4
+COD1-1-4;DSE-STS1-4-1;SALA ER1-4
+HVAC1-4-1;CRAH1-4-1;SALA ER1-4
+HVAC1-4-4;CRAH1-4-4;SALA ER1-4
+STS1-1-1-4;STS1-4-1-1;SALA ER1-4
+STS1-1-2-4;STS1-4-1-2;SALA ER1-4
+STS1-1-3-4;STS1-4-1-3;SALA ER1-4
+STS-1-1-4-4;STS1-4-1-4;SALA ER1-4
+CH2-2D;DPC-1CRAH-ER1-5-S2;SALA ER1-5
+CH3-1C;DP1-3CRAH-ER1-5-S1 ;SALA ER1-5
+COD1-1-5;DSE-STS1-5-1;SALA ER1-5
+COD1-2-5;DSE-STS1-5-2;SALA ER1-5
+STS1-1-3-5;STS1-5-1-3;SALA ER1-5
+HVAC 1-5-1;CRAH1-5-1;SALA ER1-5
+HVAC 1-5-4;CRAH1-5-4;SALA ER1-5
+QA-05;AP-05;SALA ER1-5
+STS1-1-1-5;STS1-5-1-1;SALA ER1-5
+STS1-1-2-5;STS1-5-1-2;SALA ER1-5
+STS1-2-4-5;STS1-5-2-4;SALA ER1-5
+STS1-1-4-5;STS1-5-1-4;SALA ER1-5
+STS1-2-1-5;STS1-5-2-1;SALA ER1-5
+STS1-2-2-5;STS1-5-2-2;SALA ER1-5
+STS1-2-3-5;STS1-5-2-3;SALA ER1-5
+ALB-BMS;ALB2-1-1;SALA BATERIAS
+ALB-BMS;ALB2-1-2;SALA BATERIAS
+BB 2.1.1.1;BDP2-1-1-1;SALA ER2-1
+BB 2.2.1.1;BDP2-1-2-1;SALA ER2-1
+CH4-2C;DPC-2-CRAH-ER2-1-S2 ;SALA ER2-1
+CH6-1C;DP2-1-CRAH-ER2-1-S1 ;SALA ER2-1
+CS2-1;DSE-UPS2-1;SALA ER2-1
+COD2-1-1;DSE-STS2-1-1;SALA ER2-1
+QF-EXT-2-4;EP-EXT-2-4;SALA ER2-1
+DS2-1;DSE-M2-1;SALA ER2-1
+DS2-1-2;GCP2-1-2;SALA ER2-1
+COD2-2-1;DSE-STS2-2-1;SALA ER2-1
+HVAC2-1-1;CRAH2-1-1;SALA ER2-1
+HVAC2-1-2;CRAH2-1-2;SALA ER2-1
+HVAC2-1-3;CRAH2-1-3;SALA ER2-1
+HVAC2-1-4;CRAH2-1-4;SALA ER2-1
+DS2-1-1;GCP2-1-1;SALA ER2-1
+STS2-1-1-1;STS2-1-1-1;SALA ER2-1
+STS2-1-2-1;STS2-1-1-2;SALA ER2-1
+STS2-1-3-1;STS2-1-1-3;SALA ER2-1
+STS2-1-4-1;STS2-1-1-4;SALA ER2-1
+STS2-2-1-1;STS2-1-2-1;SALA ER2-1
+STS2-2-2-1;STS2-1-2-2;SALA ER2-1
+STS2-2-3-1;STS2-1-2-3;SALA ER2-1
+STS2-2-4-1;STS2-1-2-4;SALA ER2-1
+TR2-CS2-1;TR-ER2-1;SALA ER2-1
+UPS2-1-1;UPS2-1-1;SALA ER2-1
+UPS2-2-1;UPS2-1-2;SALA ER2-1
+RETIFICADOR 1;RECT2-1-1-1;SALA UPS DH2
+RETIFICADOR 2;RECT2-1-1-2;SALA UPS DH2
+BCO.CAP 300 KVAR;CB1-ER2-1;UPS 2.1
+HVAC2-1-5;CRAH2-1-5;UPS 2.1
+HVAC2-1-6;CRAH2-1-6;UPS 2.1
+QA-16;AP-16;UPS 2.1
+QE-EX2-1-5;EP-EX2-1-5;UPS 2.1
+QE-EX2-1-6;EP-EX2-1-6;UPS 2.1
+QE-HVAC2-1-5;EP-CRAH2-1-5;UPS 2.1
+QE-HVAC2-1-6;EP-CRAH2-1-6;UPS 2.1
+BB2-2-2-1;BB1-1-1-2;
+BB-2-1-2-1;BDP2-1-1-2;
+ICOM;ICOM;
+BD2-2-1;BD2-1-2-1;
+BD2-1-1;BD2-1-1-1;
+CDB 2-1-2;BDP2-2-1-1;ER2-2
+CDB 2-2-2;BDP2-2-2-1;ER2-2
+STS2-1-1-2;STS2-2-1-1;SALA ER 2-2
+STS2-1-3-2;STS2-2-1-3;SALA ER 2-2
+STS2-2-1-2;STS2-2-2-1;SALA ER 2-2
+STS2-2-3-2;STS2-2-2-3;SALA ER 2-2
+CH5-1D;DP2-1CRAH-ER2-2-S2 ;SALA ER2-2
+CH6-2C;DP2-2CRAH-ER2-2-S1 ;SALA ER2-2
+CS2-2;DSE-UPS2-2;SALA ER2-2
+DS2-2;DSE-M2-2;SALA ER2-2
+HVAC2-1-1;CRAH2-2-1;SALA ER2-2
+HVAC2-2-2;CRAH2-2-2;SALA ER2-2
+HVAC2-2-3;CRAH2-2-3;SALA ER2-2
+HVAC2-2-4;CRAH2-2-4;SALA ER2-2
+COD2-2-2;DSE-STS2-2-2;SALA ER2-2
+COD2-1-2;DSE-STS2-2-1;SALA ER2-2
+TR2-CS2;TR-ER2-2;SALA ER2-2
+UPS2-1-2;UPS2-2-1;SALA ER2-2
+UPS2-2-2;UPS2-2-2;SALA ER2-2
+QA-46;AP-46;UPS 2.2
+CDB2-2-2;BD2-2-2-1;
+CDB2-1-2;BD2-2-1-1;
+HVAC1-6-2;CRAHC-1-2;SALA  ERC-1
+HVAC1-6-3;CRAHC-1-3;SALA  ERC-1
+HVAC1-6-4;CRAHC-1-4;SALA  ERC-1
+BCO.CAP 300 KVAR;CB1-ERC-1;Sala de UPS 1.6
+CRAHC-1-5;CRAHC-1-5;Sala de UPS 1.6
+CRAHC-1-6;CRAHC-1-6;Sala de UPS 1.6
+QA-06;AP-06;Sala de UPS 1.6
+QE-CRAHC-1-5;EP-CRAHC-1-5;Sala de UPS 1.6
+QE-CRAHC-1-6;EP-CRAHC-1-6;Sala de UPS 1.6
+QE-EXC-1-5;EP-EXC-1-5;Sala de UPS 1.6
+QE-EXC-1-6;EP-EXC-1-6;Sala de UPS 1.6
+QF-CC-02A;EP-DC-ERC-1-1;Sala de UPS 1.6
+QF-CC-06B;EP-DC-ERC-1-2;Sala de UPS 1.6
+QF-EXT-1-8;EP-EXT-ERC-1;Sala de UPS 1.6
+CH2-1D;DP1-3CRAH-ERC-1-S2 ;SALA ERC-1
+CH3-2C;DPC-1CRAH-ERC-1-S1 ;SALA ERC-1
+COD1-R1-6;DSE-STS-C-1-1;SALA ERC-1
+COD1-R2-6;DSE-STS-C-1-2;SALA ERC-1
+CRUPS-01;DSE-UPS-C-1;SALA ERC-1
+DS1-6;DSE-MC-1;SALA ERC-1
++DS1-6-1;GCP1-C-1;SALA ERC-1 
+HVAC1-6-1;CRAHC-1-1;SALA ERC-1 
+PDB-1-R1-6;BDPC-1-1-1;SALA ERC-1 
+TR1-CRUPS1-6;TR-ERC-1;SALA ERC-1 
+UPS1-R1-6;UPSC-1-1;SALA ERC-1 
+UPS1-R2-6;UPSC-1-2;SALA ERC-1 
++DS1-6-2;GCP1-C-2;
+Retificadora 1;RECT1-C-1-1;
+Retificadora 2;RECT1-C-1-2;
+ICOM-6;ICOM-6;
+BD1-R1-6;BDC-1-1-1;
+BB 1.2.1.6;BDPC-1-2-1;SALA ER1C-1
+ALB-C-2-1;ALB-C-2-1;
+ALB-C-2-2;ALB-C-2-2;
+BB 2.2.1.6;BDPC-2-2-1;SALA ERC-2
+BB2-1-1-6;BDPC-2-2-1;SALA ERC-2
+CH5-1D;DP2-1-CRAH-ERC-2-S2 ;SALA ERC-2
+COD2-R1-6;DSE-STS-C-2-1;SALA ERC-2
+COD2-R2-6;DSE-STS-C-2-2;SALA ERC-2
+CRUPS 2-6;DSE-UPS2-C;SALA ERC-2
+DS2-6;DSE-MC-2;SALA ERC-2
+HVAC 2-6-1;CRAHC-2-1;SALA ERC-2
+HVAC 2-6-2;CRAHC-2-2;SALA ERC-2
+HVAC 2-6-3;CRAHC-2-3;SALA ERC-2
+HVAC 2-6-4;CRAHC-2-4;SALA ERC-2
+TR2-CRUPS 2-6;TR-ERC-2;SALA ERC-2
+UPS2-R1-6;UPSC-2-1;SALA ERC-2
+UPS2-R2-6;UPSC-2-2;SALA ERC-2
+CH4-2D;DPC-2-CRAH-ER-C2-S1 ;SALA ER-C-2
+RETIFICADOR 1;RECTC-2-1-1;SALA UPS DH2
+RETIFICADOR 2;RECTC-2-1-2;SALA UPS DH2
+BCO.CAP 300 KVAR;CB1-ERC-2;UPS 2.2
+HVAC2-6-5;CRAHC-2-5;UPS 2.2
+HVAC2-6-6;CRAHC-2-6;UPS 2.2
+QA-21;AP-21;UPS 2.2
+QE-EX2-6-5;EP-EXC-2-5;UPS 2.2
+QE-EX2-6-6;EP-EXC-2-6;UPS 2.2
+QE-HVAC2-6-5;EP-CRAHC-2-5;UPS 2.2
+QE-HVAC2-6-6;EP-CRAHC-2-6;UPS 2.2
+QF-CC-02B;EP-DC-ERC-2-1;UPS 2.2
+QF-CC-06A;EP-DC-ERC-2-2;UPS 2.2
+QF-EXT-2-9;EP-EXT-ERC-2;UPS 2.2
+BB2-2-2-6;BDPC-2-2-2;
+BB2-1-2-6;BDPC-2-1-2;
+DB2-R2-6;BDC-2-2-2;
+DB2-R1-6;BDC-2-1-1;
++DS2-6-1;GCPC-2-1;
++DS2-6-2;GCPC-2-2;
+SITELINK2-6;ICOM;
+ATS-EXT-1G;ATS-EXT-1G;TRAFOS E PAINEIS PREDIAIS 1
+ATS-QF-ARCOND-1-1;ATS-EP-CRAH1-1;TRAFOS E PAINEIS PREDIAIS 1
+ATS-UPS-PREDIAL;ATS-UPS-GS;TRAFOS E PAINEIS PREDIAIS 1
+PRD1-1;EP-GS1-1;TRAFOS E PAINEIS PREDIAIS 1
+PRD1-2;EP-GS1-2;TRAFOS E PAINEIS PREDIAIS 1
+QC1-1;CCP1-ERGS1;TRAFOS E PAINEIS PREDIAIS 1
+QF-EXT-1G;EP-EXT-ERGS1;TRAFOS E PAINEIS PREDIAIS 1
+SC1-PRD1-1;SC-GS1-1;TRAFOS E PAINEIS PREDIAIS 1
+TR-PRD1-1;TR-GS1-2;TRAFOS E PAINEIS PREDIAIS 1
+ATS-QF-ARCOND-2-1;ATS-EP-CRAH2-1;TRAFOS E PAINEIS PREDIAIS 1
+ATS-QF-EXT-2G;ATS-EP-EXT-2G;TRAFOS E PAINEIS PREDIAIS 1
+PRD2-1;EP-GS2-1;TRAFOS E PAINEIS PREDIAIS 1
+PRD2-2;EP-GS2-2;TRAFOS E PAINEIS PREDIAIS 1
+QC2-1;CCP1-ERGS2;TRAFOS E PAINEIS PREDIAIS 1
+QF-EXT-2G;EP-EXT-ERGS2;TRAFOS E PAINEIS PREDIAIS 1
+SC1-PRD2-1;SC-GS2-1;TRAFOS E PAINEIS PREDIAIS 1
+TRPRD2-1;TR-GS2-1;TRAFOS E PAINEIS PREDIAIS 1
+STS01TI;STS01IT;SALA TELCO ER1
+STS02TI;STS02IT;SALA TELCO ER1
+BB1-TI-1;BB1-UPS-IT1;UPS T.I.
+BB1-TI-2;BB1-UPS-IT2;UPS T.I.
+BB2-TI-1;BB2-UPS-IT1;UPS T.I.
+BB2-TI-2;BB2-UPS-IT2;UPS T.I.
+COD-TI-1;DSE-TI-1;UPS T.I.
+COD-TI-2;DSE-TI-2;UPS T.I.
+DJ-BAT-TI-1;BC-BB-UPS-IT1;UPS T.I.
+DJ-BAT-TI-2;BC-BB-UPS-IT2;UPS T.I.
+PDU-TI-1A;PDU-IT1-1;UPS T.I.
+PDU-TI-1B;PDU-IT1-2;UPS T.I.
+PDU-TI-2A;PDU-IT2-1;UPS T.I.
+PDU-TI-2B;PDU-IT2-2;UPS T.I.
+QBM-TI-1;EP-IT-1;UPS T.I.
+QBM-TI-2;EP-IT-2;UPS T.I.
+UPS-TI-1;UPS-IT1;UPS T.I.
+UPS-TI-2;UPS-IT2;UPS T.I.
+UPS-TI-3-40KVA;DSE-UPS-IT3;UPS T.I.
+UPS-TI-4-40KVA;DSE-UPS-IT4;UPS T.I.
+QDCA-TI-1A;EPAC-IT-F-A1;FIBER A
+QDCA-TI-1B;EPAC-IT-F-B1;FIBER A
+BCO BAT RET A1 - 02;BB02-RECT-FIBER-A1;SALA FIBER A
+BCO BAT RET B1 - 01;BB02-RECT-FIBER-B1;SALA FIBER A
+BCO BAT RET B1- 02;BB01-RECT-FIBER-B1;SALA FIBER A
+RETIF. CROSS B1;RECT-FIBER-B1;SALA FIBER A
+RETIF.CROSS A1;RECT-FIBER-A1;SALA FIBER A
+BCO BAT RET A1 - 01;BB01-RECT-FIBER-A1;SALA FIBER A
+QDF-200A VIA-B;PDP-200A-VIA-B;
+QDF-200A VIA-A;PDP-200A-VIA-A;
+QDF-01 VIA-A;PDP-01- VIA-A;
+QDF-02 VIA-B;PDP-02-VIA-B;
+BCO BAT RET A2 - 02;BB02-RECT-FIBER-A2;SALA FIBER B
+BCO BAT RET B2 - 01;BB01-RECT-FIBER-B2;SALA FIBER B
+BCO BAT RET B2 - 02;BB02-RECT-FIBER-B2;SALA FIBER B
+QDCA-TI-2B;EPAC-IT-F-B2;SALA FIBER B
+RECTIF.CROSS A2;RECT-FIBER-A2;SALA FIBER B
+RECTIF.CROSS B2;RECT-FIBER-B2;SALA FIBER B
+BCO BAT RET A2 - 01;BB01-RECT-FIBER-A2;SALA FIBER B
+QDCA-TI-2A;EPAC-IT-F-A2;SALA FIBER B
+QDF-400A VIA-B;PDP-400A-VIA-B;
+QDF-02-VIA-B;PDP-02-VIA-B;
+QDF-01-VIA-A;PDP-01-VIA-A;
+QDF-400A VIA-A;PDP-400A-VIA-A;
+QE-EX1-GA-1;EP-EX1-GH-1;
+(+)MC-AUX-1;MC-AUX-1;GENERATOR PARALLELLING
+PMT-GPS;MVP-GPSR;GENERATOR PARALLELLING
+(+)GEN2-R;CCP-G2-R;GENERATOR PARALLELLING
+(+) MASTERCONTROL;MASTERCONTROL;GENERATOR PARALLELLING
+(+) MC-AUX-2;MC-AUX-2;GENERATOR PARALLELLING
+(+)GEN1-R;CCP-G1-R;GENERATOR PARALLELLING
+CB2-G1-1;BCP2-G1-1;G1-1
+CCM-G1-1;CCP-G1-1;G1-1
+G1;DDT-G1-1;G1-1
+Sem tag;DPT-G1-1;G1-1
+QE-EX1-GE-1-1A;EP-EX1-G1-1;G1-1
+CB1-G1-1;BCP1-G1-1;G1-1
+QE-EX1-GE-1-2;EP-EX2-G1-1;G1-1
+GEN1-1-RTU;CCP-G1-1-RTU;G1-1
+G1-1-IB;G1-1-IB;SALA G1-1
+TRCCM11;TR-CCM1-1;SALA GERADORES G1-1
+G2;DDT-G1-2;SALA GERADORES G1-2
+GEN1-1;G1-1;SALA GMG G1-1
+Sem tag;DPT-G1-2;SALA GMG G1-2
+CB2-G1-2;BCP2-G1-2;G1-2
+PAINEL CCM-1-2;CCP-G1-2;G1-2
+CB1-G1-2;BCP1-G1-2;G1-2
+QE-EX1-GE-1-1B;EP-EX1-G1-2;G1-2
+GEN1-2-RTU;CCP-G1-2-RTU;G1-2
+QF-VT-GE-1A;EP-FAN-GR1-2;G1-2
+G1-2-IB;G1-2-IB;SALA G1-2
+TRCCM12;TR-CCM1-2;SALA GERADORES G1-2
+GEN1-2;G1-2;SALA GMG G1-2
+CB2-G1-3;BCP2-G1-3;G1-3
+CCM-G1-3;CCP-G1-3;G1-3
+GEN1-3-RTU;CCP-G1-3-RTU;G1-3
+CB1-G1-3;BCP1-G1-3;G1-3
+QE-EX1-GE-2-1A;EP-EX1-G1-3;G1-3
+QE-EX1-GE-2-2;EP-EX2-G1-3;G1-3
+G1-3-IB;G1-3-IB;SALA G1-3
+TR-CCM13;TR-CCM1-3;SALA GERADORES G1-3
+G3;DDT-G1-3;SALA GERADORES G1-3
+SEM TAG ;DPTG1-3;SALA GMG G1-3
+GEN1-3;G1-3;SALA GMG G1-3
+CB2-G2-1;BCP2-G2-1;G2-1
+GEN2-1-RTU;CCP-G2-1-RTU;G2-1
+CB1-G2-1;BCP1-G2-1;G2-1
+LDB-1F-ADM;EP-GS-ADM;G2-1
+Instalado sem tag;FSY-TLS-450-2;G2-1
+QA-EXT4;AP-EXT4;G2-1
+QB1;CCP-FSY-B1;G2-1
+QB2;CCP-FSY-B2;G2-1
+QC1;CCP-FSY-C1;G2-1
+QC2;CCP-FSY-C2;G2-1
+QE-EX2-GE-3-4B;EP-EX1-G2-1;G2-1
+QCA-2;CCP2-G2-1;G2-1
+QCA-3;CCP3-G2-1;G2-1
+Instalado sem tag;FSY-TLS-450-1;G2-1
+QF-VT-GE-2A;EP-FAN-GR2-1;G2-1
+QCA-1;CCP1-G2-1;G2-1
+G2-1-IB;G2-1-IB;SALA G2-1
+GEN2-1;G2-1;
+CB2-GE-2-2;BCP2-G2-2;G2-2
+QE-EX2-GE-3-2;EP-EX1-G2-2;G2-2
+SEM TAG;DDT-G2-1;G2-2
+GEN2-2-RTU;CCP-G2-2-RTU;G2-2
+CB1-GE-2-2;BCP1-G2-2;G2-2
+QSA-GEN-2-2;EP-GR2-2;G2-2
+SEM TAG;TR-GR2-2;G2-2
+G2-2-IS;G2-2-IB;G2-2
+DDT-G2-2;DDT-G2-2;SALA GERADORES G2-2
+O2STQDBBA21;DPTG2-1;SALA GMG G2-1
+O2STQDBBA22;DPTG2-2;SALA GMG G2-2
+GEN2-2;G2-2;
+GEN2-3-RTU;CCP-G2-3-RUT;
+CB1-G1-6;BCP1-GC-1;G1-6
+CB2-G1-6;BCP2-GC-1;G1-6
+GEN1-6-RTU;CCP-GC-1-RTU;G1-6
+CCM-G1-6;CCP-GC-1;G1-6
+QE-EX1-GE-3-1B;EP-EX2-GC-1;G1-6
+QF-VT-GE-1B;EP-FAN-GR-C1;G1-6
+G1-6-IB;GC-1-IB;SALA GC-1
+TR-CCM16;TR-CC1-C;SALA GERADORES GC-1
+GEN1-6;GC-1;SALA GMG GC-1
+ATS-VT-GE-2;ATS-FAN-GC2-2;G2-FUTURO
+CB1-G2-6;BCP1-GC-2;G2-FUTURO
+CB2-G2-6;BCP2-GC-2;G2-FUTURO
+CCM-G2-6;CCP-GC-2;G2-FUTURO
+QE-EX2-GE-4-1B;EP-EX2-GC-2;G2-FUTURO
+QF-VT-GE-1;EP-FAN1-GR-C2;G2-FUTURO
+QF-VT-GE-2;EP-FAN2-GR-C2;G2-FUTURO
+ATS-VT-GE-1;ATS-FAN-GC2-1;G2-FUTURO
+G2-6-IB;GC-2-IB;SALA GC-2
+TR CCM 2-6;TR-CCMC-2;SALA GERADORES GC-2
+GEN2-6;GC-2;SALA GMG GC-2
+QF-CC-08A;EP-CC-08A;
+QF-CC-04B;EP-CC-04B;
+QE-EX1-GE-4-2;EP-EX2-GF-1;G2-4
+C3011BTQD1R;DDT-G1-R;SALA GERADORES G1-R
+GEN1-7-RTU;CCP-G1-7-RTU;
+SEM TAG ;DPT-G1-R;
+GEN2-7-RTU;CCP-G2-7-RTU;G2-5
+QE-EX2-GE-4-2;EP-EX1-GF-2;G2-5
+QF-VT-GE-2D;EP-FAN-GRF-2;G2-5
+C3011BTQD2R;DDT-GC-2;SALA GERADORES GC-2
+sem tag ;DPTGC-2;SALA GMG GC-2
+QF-CC-08B;EP-DC-GRF-4-2;G2-7
+QF-VT-GE-1C;EP-FAN-GRF-4;G2-7
+QF-CC-04A;EP-DC-GRF-4-1;G2-7
+QE-EX1-GE-3-2;EP-EX2-GF-5;G1-7
+QA-23;AP-23;G1-7
+GEN1-5-RTU;CCP-G1-5-RTU;G1-7
+BTQD6;DDT-GC-1;SALA GERADORES GC-1
+Sem tag;DPT-GC-1;SALA GMG GC-1
+CB2-G1-GEN-1R;BCP2-GR-1;G1-R
+G1-GEN-1R;G1R-GEN-1B;G1-R
+QE-EX1-GE-4-1B;EP-EX2-G-R1;G1-R
+CB1-G1-GEN-1R;BCP1-GR-1;G1-R
+QF-VT-GE-1D;EP-FAN-GR-R1;G1-R
+TR-CCM1-R;TR-CCM1-R;SALA GERADORES G1-R
+GEN1-R;G1-R;SALA GMG G1-R
+CCM.G1 GEN-1R;CCP-G1-GEN-1R;
+QCA-3PAV-05A;ACP-FL03-5A;SALA TI 001
+QCA-3PAV-05B;CCP-FL03-5;SALA TI 001
+QCA-3PAV-04;ACP-FL03-4;SALA TI 002
+QCA-3PAV-07A;ACP-FL03-7A;SALA TI 003
+QCA-3PAV-07B;ACP-FL03-7B;SALA TI 003
+QCA-3PAV-09B;CCP-FL03-9B;SALA TI 004
+QCA-3PAV-09A;CCP-FL03-9A;SALA TI 004
+QCA-3PAV-01;CCP-FL03-1;SALA TI 005
+QCA-3PAV-02;ACP-FL03-2;SALA TI 006
+TR1-MS1;TR-DMS1-1;SALA MS1-1
+TR1-MS2;TR-DMS1-2;SALA MS1-2
+MS1-1;DSM 1-1;Sala-01 Chiller
+MS1-2;DSM 1-2;Sala-01 Chiller
+SC1-MS1;SC1-MS1-1;Sala-01 Chiller
+SC1-MS2;SC1-MS1-2;Sala-01 Chiller
+QE-VI1-BT-1;EP-VI1-BT-1;
+BCO.CAP 200 KVAR;CB1-MER1-2;
+MS3-1;DSM1-3;SALA MS1-3
+SC1-MS3;SC1-MS1-3;SALA MS1-3
+QF-CC-07B;EP-DC-07B;SALA MS1-3
+QF-CC-03A;EP-DC-03A;SALA MS1-3
+TR1-MS3;TR-DSM1-3;SALA MS1-3
+TR1-MS6;TR-DSM-C-1;Sala-03 Chiller
+SC1-MS6;SC1-MSC-1;Sala-03 Chiller
+MS6-1;DSM-C-1;Sala-03 Chiller
+BCO. CAP 200 KVAR;CB1-MER3;
+TR2-MS6-2;TR-DSM-C-2;SALA MSC-2
+SEC-TR2-MS2-6;SC1-MSC-2;Sala-04 Chiller
+MS6-2;DSM-C-2;Sala-04 Chiller
+SEC-TR1-MS2-2;SC1-MS2-2;Sala-06 Chiller
+TR2-MS2-2;TR-DSM2-2;Sala-06 Chiller
+TR2-MS2-1;TR-DSM2-1;Sala-06 Chiller
+MS1-2;DSM2-1;Sala-06 Chiller
+MS2-2;DSM2-2;Sala-06 Chiller
+SEC-TR2-MS1-2;SC1-MS2-1;Sala-06 Chiller
+HVAC1-MLB-1-1;CRAH-MLB1-1;HVAC
+HVAC1-MLB-1-2;CRAH-MLB1-2;HVAC
+QA-08;AP-08;HVAC
+QA-08-1;AP-08-1;HVAC
+MLB-A;MLB1;SALA MLB1
+QF-CC-01A;EP-CC-01A;SALA MLB1
+QF-CC-05B;EP-CC-05B;SALA MLB1
+CH3-2E;DP-C-1-CRAH-MLB-1 ;SALA MLB-1
+TR1-MLB-A;TR-MLB-1;SALA MLB-1
+DS1-MLB;DSE-MLB-1;SALA MLB-1
+BCO. CAP 300 KVAR;CB1-MLB-1;
+HVAC-UP-1;CRAH-UP-1;HVAC
+ HVAC-UP-2;CRAH-UP-2;HVAC
+HVAC1-BT-2;CRAH-BAT-MLB1-2;HVAC
+QE-HVAC1-BT-1;EP-CRAH1-BAT1;HVAC
+HVAC1-BT-1;CRAH-BAT-MLB1-1;HVAC
+QE-VI1-BT-1;EP-FAN-BAT1;HVAC
+QE-VI1-UP-1;EP-FAN-UP1;HVAC
+QE-HVAC1-BT-2;EP-CRAH1-BAT2;HVAC
+QF-ARCOND1-2;EP-CRAH-MLB1;HVAC
+QE-HVAC1-UP-2;EP-CRAH1-UP-2;
+QE-HVAC1-UP-1;EP-CRAH1-UP-1;
+HVAC2-MB-2;CRAH2-MLB2-2;HVAC
+QA-44;AP-44;HVAC
+HVAC2-MB-1;CRAH2-MLB2-1;HVAC
+MLB-B;MLB2;SALA MLB2
+CH4-2E;DP-C-2-CRAH-MLB-2;SALA MLB-2
+TR2-MLB-B;TR-MLB-2;SALA MLB-2
+DS MLB-B;DSE-MLB-2;SALA MLB-2
+QF-CC-05A;EP-CC-05A;
+QF-CC-01B;EP-CC-01B;
+HVAC2-BT-2;CRAH2-BAT-MLB2-2;HVAC
+HVAC2-UP-2;CRAH2-UP-MLB2-2;HVAC
+HVAC2-UP-1;CRAH2-UP-MLB2-1;HVAC
+QE-HVAC2-BT-1;EP-CRAH2-BAT1;HVAC
+QF-ARCOND2-2;EP-CRAH-MLB2;HVAC
+QE-HVAC2-BT-2;EP-CRAH2-BAT2;HVAC
+HVAC2-BT-1;CRAH1-BAT-MLB2-1;HVAC
+QE-V3-UP1;EP-V3-UP1;
+QE-V3-BT1;EP-V3-BT1;
+QE-HVAC2-UP-2;EP-CRAH2-UP-2;
+QE-HVAC2-UP-1;EP-CRAH2-UP-1;
+MDP-CH1-2;DP1-2-CRAH-TA ;MS1-2
+PP 1.1 ;PP1-1;SALA CAG MS1-1
+SP 1.1 ;SP1-1;SALA CAG MS1-1
+CP 1.1 ;CP1-1;SALA CAG MS1-1
+CP 1.2;CP1-2;SALA CAG MS1-2
+PP 1.2;PP1-2;SALA CAG MS1-2
+SP 1.2;SP1-2;SALA CAG MS1-2
+CH1-2;CH1-2;SALA CHILLER CH1-2
+CH1-1B;DP1-1-P-T ;Sala Chiller1.1
+PAINEL MODULO CH1.1;PCT-CH1-1;SALA CHILLERS MS1-1
+PAINEL MODULO CH1.2;PCT-CH1-2;SALA CHILLERS MS1-2
+ATS-SP-1-2;ATS-SP-1-2;SALA MS
+ATS-SP-1-1;ATS-SP-1-1;SALA MS
+CH1-2B;DP1-2-P-T ;SALA MS1-2
+CH1-2A;DP1-2-CH1-2 ;SALA MS1-2
+QA-10;AP-10;Sala-01 Chiller
+QA-10-1;AP-10-1;Sala-01 Chiller
+QA-11;AP-11;Sala-01 Chiller
+QC-VM-CT1-1;CCP-MV-MR1-1;Sala-01 Chiller
+QC-VM-CT1-2;CCP-MV-MR1-2;Sala-01 Chiller
+QE PP-1-1;EP-PP1-1;Sala-01 Chiller
+QE-CT-1-1;EP-CT-1-1;Sala-01 Chiller
+QE-CT-1-2;EP-CT-1-2;Sala-01 Chiller
+QE-EX1-1;EP-EX1-1;Sala-01 Chiller
+QE-PP1-2;EP-PP1-2;Sala-01 Chiller
+QE-SP1-1;EP-SP1-1;Sala-01 Chiller
+QE-SP1-2;EP-SP1-2;Sala-01 Chiller
+QE-VI-1-1;EP-FAN1-1;Sala-01 Chiller
+VB-CH1-1;WMV-CH1-1;Sala-01 Chiller
+MDP-CH1-1;DP1-1-CRAH-TA;Sala-01 Chiller
+CH1.1;CH1-1;Sala-01 Chiller
+VB-CH1-2;WMV-CH1-2;Sala-01 Chiller
+QF-EXT-1-1;EP-EXT-MR1-1;
+CH1-1A;DP1-1-CH1-1;
+CP2.1;CP1-3;SALA CAG MS1-3
+SP 2.1;SP1-3;SALA CAG MS1-3
+CP2-2;CP2-2;SALA CAG MS2-2
+PP2-2;PP2-2;SALA CAG MS2-2
+SP2-2;SP2-2;SALA CAG MS2-2
+ATS-SP-2-1;ATS-SP-1-3;Sala Chiller 2-1
+CH2.1;CH1-3;SALA CHILLER CH1-3
+SEM TAG;CH2-2;SALA CHILLER CH2-2
+CH2-1A;DP1-3-CH1-3 ;SALA MS1-3
+CH2-1B;DP1-3-P-T ;SALA MS1-3
+PP2-1;PP1-3;Sala-02 Chiller
+QE-EX-2-1;EP-EXT-MR1-3;Sala-02 Chiller
+PAINEL-MODULO-CH2-2;PCT-CH2-2;Sala-02 Chiller
+QE-PP-2-1;EP-PP-1-3;Sala-02 Chiller
+QA-12-1;AP-12-1;Sala-02 Chiller
+QA-13;AP-13;Sala-02 Chiller
+VM-CH2-1;WMV-CH1-3;Sala-02 Chiller
+QC-VM-CT-2-2;CCP-MV-MR2-2;Sala-02 Chiller
+QF-EXT-1-2;EP-EXT-MR2-2;Sala-02 Chiller
+QE-CT-2-2;EP-CT-2-2;Sala-02 Chiller
+PAINEL-MODULO-CH2-1;PCT-CH1-3;Sala-02 Chiller
+QE-VI-2-1;EP-FAN1-3;Sala-02 Chiller
+QE-PP-2-2;EP-PP-2-2;Sala-02 Chiller
+QE-SP2-2;EP-SP2-2;Sala-02 Chiller
+QE-SP2-1;EP-SP-1-3;Sala-02 Chiller
+QE-CT-2-1;EP-CT-1-3;Sala-02 Chiller
+QA-12;AP-12;Sala-02 Chiller
+VM-CH2-2;WMV-CH2-2;Sala-02 Chiller
+QC-VM-CT2-1;CCP-MV-MR1-3;Sala-02 Chiller
+MDP-CH2-1;DP1-3-CRAH-TA;Sala-02 Chiller
+ATS-SP-2-1;ATS-SP-2-1;
+QF-EXT-2-3;EP-EXT-2-3;
+CH2.1;CH1-3;MR2
+PP 3.1;PP2-1;SALA CAG MS2-1
+SP 3.1;SP2-1;SALA CAG MS2-1
+PP 3.2;PPC-1;SALA CAG MSC-1
+CP 3.2;CPC-1;SALA CAG MSC-1
+SP 3.2;SPC-1;SALA CAG MSC-1
+CH3-2;CHC-1;SALA CHILLER CH2-1
+CH3.1;CH2-1;SALA CHILLER CHC-1
+MDP-CH3-2;DPC-1-CRAH-TA ;Sala-03 Chiller
+CH3-2B;DPC-1-P-T ;Sala-03 Chiller
+ATS-SP-3-2;ATS-SP-C-1;Sala-03 Chiller
+QA-15;AP-15;Sala-03 Chiller
+QA-15-1;AP-15-1;Sala-03 Chiller
+QCA-3PAV-03;ACP-3;Sala-03 Chiller
+QC-VM-CT3-1;CCP-MV-MR2-1 ;Sala-03 Chiller
+QC-VM-CT3-2;CCP-MV-MRC-1 ;Sala-03 Chiller
+QC-VM-TQ-01-A;CCP-MV-TK-MR2-1;Sala-03 Chiller
+QE-CT-3-1;EP-CT-2-1;Sala-03 Chiller
+QE-CT-3-2;EP-CT-C-1;Sala-03 Chiller
+QE-EX-3-1;EP-EXT2-1;Sala-03 Chiller
+QE-PP3-1;EP-PP2-1;Sala-03 Chiller
+QE-PP3-2;EP-PPC-1;Sala-03 Chiller
+QE-SP-3-1;EP-SP-2-1;Sala-03 Chiller
+QA-14;AP-14;Sala-03 Chiller
+QE-SP-3-2;EP-SP-C-1;Sala-03 Chiller
+QE-VI-3-1;EP-FAN2-1;Sala-03 Chiller
+VM-CH3-1;WMV-CH2-1;Sala-03 Chiller
+CH3-2A;DPC-1-CH-C-1 ;Sala-03 Chiller
+VM-CH3-2;WMV-CHC-1;Sala-03 Chiller
+QF-EXT-1-3;EP-EXT-1-3;
+CH3.1;CH2-1;MR3
+PAINEL MÓDULO CH3.2;PCT-CHC-1;MR3
+PAINEL MÓDULO CH3.1;PCT-CH2-1;MR3
+QF-EXT-2-3;EP-EXT-2-3;Sala-04 Chiller
+QA-25-1;AP-25-1;Sala-04 Chiller
+QA-25;AP-25;Sala-04 Chiller
+MDP-CH4-2;DP-C-2-CRAH-TA ;Sala-04 Chiller
+QE-VI-4-1;EP-VI-4-1;Sala-04 Chiller
+QE-EX-4-1;EP-EX-4-1;MR4
+MDP-CH6-1;DP2-1-CRAH-TA;Sala-06 Chiller
+CH6-2A;DP2-2-CH2-2;Sala-06 Chiller
+CH6-1A;DP2-1-CH2-1;Sala-06 Chiller
+MDP-CH6-2;DP2-2-CRAH-TA;Sala-06 Chiller
+QA-30;AP-30;Sala-06 Chiller
+CH6-1B;DP2-1-P-T;Sala-06 Chiller
+CH6-2B;DP2-2-P-T;Sala-06 Chiller
+ATS-SP-6-1;ATS-SP2-1;Sala-06 Chiller
+QA-30-1;AP-30-1;Sala-06 Chiller
+QA-45;AP-45;Sala-06 Chiller
+QE-EX-6-1;EP-EX-6-1;Sala-06 Chiller
+QE-VI-6-1;EP-FAN6-1;Sala-06 Chiller
+QF-EXT-2-1;EP-EXT-2-1;
+QA-09;AP-09;MS-A
+QA-09-1;AP-09-1;MS-A
+QCA-3PAV-8B;ACP-FL03-8B;
+QCA-3PAV-8A;ACP-FL03-8A;
+(+)MS-A;GCP-MV1;
+QA-24;AP-24;MS-B
+QA-24-1;AP-24-1;MS-B
+MS-B;MV-2;SALA MV2
+(+)MS-B;GCP-MV2;
+C0300TRNOC2;TRNOC-2;SALA NOC
+C0300TRPRD1;TRPRD-1;SALA NOC
+C0300TRNOC1;TRNOC-1;SALA NOC
+PAINEL MODULO CH3.2;PCT-CHC-1;SALA CHILLERS CHC-1
+SELF1-1;CRAC1-1;Sala de Retificador 1
+SELF1-2;CRAC1-2;Sala de Retificador 1
+ATS-TX-02;ATS-TX2;Sala de Retificador 2
+FCC-TX-01;DCS-TX1;Sala de Retificador 2
+FCC-TX-02;DCS-TX2;Sala de Retificador 2
+QA-FCC-TX-01;AP-DCS-TX1;Sala de Retificador 2
+QA-FCC-TX-02;AP-DCS-TX2;Sala de Retificador 2
+QBM-TX-01;EP-TX1;Sala de Retificador 2
+QBM-TX-02;EP-TX2;Sala de Retificador 2
+QDR - Instalado sem tag;EP-RR2-1;Sala de Retificador 2
+QDR - Instalado sem tag;EP-RR2-2;Sala de Retificador 2
+SELF2-1;CRAC2-1;Sala de Retificador 2
+ATS-TX-01;ATS-TX1;Sala de Retificador 2
+SELF2-2;CRAC2-2;Sala de Retificador 2
+TR-TX-01;TR-TX1;Sala de Retificador 2
+BB-TX-01-1;BB-TX-1-1;
+BB-TX-01-2;BB-TX-1-2;
+BB-TX-02-1;BB-TX-2-1;
+BB-TX-02-2;BB-TX-2-2;
+TR-TX-02;TR-TX2;
+CRAC-TX-01;CRAC-TX-01;Sala TX B2B
+HVAC 1 BT-1;FC1BT-1;
+EX1-3-6;EX1-FL03-3-6;
+EX1-GS-1;EX1-FL03-GS-1;
+EX1-2-5;EX1-FL03-2-5;
+EX1-2-5;EX1-FL03-2-5;
+EX1-1-6;EX1-FL03-1-6;
+EX1-2-5;EX1-FL03-2-5;
+EX1-2-6;EX1-FL03-2-6;
+EX1-3-5;EX1-FL03-3-5;
+EX2-6-6;EX2-FL03-6-6;
+EX2-1-5;EX2-FL03-1-5;
+EX2-GS-1;EX2-FL03-GS-1;
+EX2-6-5;EX2-FL03-6-5;
+VI2-UT-1;VI2-UT-FL03-1;
+HVAC 1 BT-2;FC1BT-2;
+HVAC 1 UP-1;FC1UP-1;
+HVAC 1 CR-1;FC1CR-1;
+HVAC 1 CR-2;FC1CR-2;
+HVAC 2 CR-1;FC2CR-1;
+HVAC 1UP-2;FC1UP-2;
+HVAC 2 UT-1;FC2UT-1;
+HVAC 1 UT-3;FC1UT-3;
+HVAC 1 UT-4;FC1UT-4;
+HVAC 2 UT-2;FC2UT-2;
+HVAC 1-6;FC1-6;
+HVAC 2-5;FC2-5;
+HVAC 1 UT-1;FC1UT-1;
+HVAC 2 CR-2;FC2CR-2;
+HVAC 1 UT-2;FC1UT-2;
+HVAC 2 UT-3;FC2UT-3;
+HVAC 2 UT-4;FC2UT-4;
+HVAC 2 UT-5;FC2UT-5;
+HVAC 1-5;FC1-5;
+HVAC 2-6;FC2-6;
+HVAC 3-5;FC3-5;
+HVAC 3-6;FC3-6;
+HVAC 6-5;FC6-5;
+HVAC 6-6;FC6-6;
+HVAC2-1-6;FC2-1-6;
+HVAC2-6-6;FC2-6-6;
+HVAC2-1-5;FC2-1-5;
+HVAC2-BT-2;FC2BT-2;
+HVAC2-6-5;FC26-5;
+HVAC2-UP-2;FC2UP-2;
+HVAC2-BT-1;FC2BT-1;
+VI1 UP-1;FAN-UP1;
+VI 1 2.1;FAN2-1;
+VI 1 3.1;FAN3-1;
+VI 1 4.1;FAN4-1;
+VI 1 6.1;FAN6-1;
+VI 1 UT-1;FAN-UT1;
+VI2 UT-1;FAN-UT1;
+VI 1 1.1;FAN1-1;
+VI 2 BT-1;FAN-BT1;
+EX1-1-5;EX1-FL03-1-5;
+VI2-UP-1;VI2-UP-FL03-1;
+HVAC2-UP-1;FC2UP-1;
+;P1A;
+;P1B;
+;P1C;
+;S1A;
+;S1B;
+VI 1 BT-1;FAN-BT1;
+QA-40-1;AP-40-1;
+QE-VEI-CR-1;EP-VEI-CR-1;
+TBW2-2-3-2-D;TBW2-2-3-2-D;DataHall2
+TBW2-2-2-2-D;TBW2-2-2-2-D;DataHall2
+TBW2-2-4-2-A;TBW2-2-4-2-A;DataHall2
+TBW2-2-1-2-C;TBW2-2-1-2-C;DataHall2
+TBW2-2-4-2-B;TBW2-2-4-2-B;DataHall2
+TBW2-2-4-2-C;TBW2-2-4-2-C;DataHall2
+TBW2-1-3-2-D;TBW2-1-3-2-D;DataHall2
+TBW2-2-4-2-D;TBW2-2-4-2-D;DataHall2
+TBW2-2-1-2-D;TBW2-2-1-2-D;DataHall2
+TBW2-2-3-2-A;TBW2-2-3-2-A;DataHall2
+TBW2-2-3-2-B;TBW2-2-3-2-B;DataHall2
+TBW2-2-3-2-C;TBW2-2-3-2-C;DataHall2
+TBW2-1-2-2-C;TBW2-1-2-2-C;DataHall2
+TBW2-1-2-2-D;TBW2-1-2-2-D;DataHall2
+TBW2-1-1-2-C;TBW2-1-1-2-C;DataHall2
+TBW2-1-1-2-D;TBW2-1-1-2-D;DataHall2
+TBW2-1-4-2-A;TBW2-1-4-2-A;DataHall2
+TBW2-1-4-2-B;TBW2-1-4-2-B;DataHall2
+TBW2-1-4-2-C;TBW2-1-4-2-C;DataHall2
+TBW2-1-4-2-D;TBW2-1-4-2-D;DataHall2
+TBW2-1-3-2-A;TBW2-1-3-2-A;DataHall2
+TBW2-1-3-2-B;TBW2-1-3-2-B;DataHall2
+TBW2-1-3-2-C;TBW2-1-3-2-C;DataHall2
+TBW2-2-2-2-C;TBW2-2-2-2-C;DataHall2
+QCA-4PAV-04;ACP-FL04-4;SALA TI 001
+QCA-4PAV-05A;ACP-FL04-5A;SALA TI 001
+QCA-4PAV-06B;ACP-FL04-6B;SALA TI 001
+QCA-4PAV-02;ACP-FL04-2;SALA TI 002
+QCA-4PAV-03;ACP-FL04-3;SALA TI 002
+QCA-4PMEZ-01;CCP-FL05-1;SALA TI 002
+CP 3.1;CP2-1;MR3
+BCO BAT PREDIAL 02;BB02-PRD;SALA NOC
+BCO BAT UPS NOC 1 - 01;BB01-NOC01;SALA NOC
+BCO BAT UPS NOC 1 - 02;BB02-NOC01;SALA NOC
+BCO BAT UPS NOC 2 - 01;BB01-NOC02;SALA NOC
+BCO BAT UPS NOC 2 - 02;BB02-NOC02;SALA NOC
+BCO BAT PREDIAL 01;BB01-PRD;SALA NOC
+STS01NOC;STS1-NOC;SALA NOC
+STS02NOC;STS2-NOC;SALA NOC
+UPS1-NOC;UPS1-NOC;SALA NOC
+UPS2-NOC;UPS2-NOC;SALA NOC
+UPS-PRD1;UPS1-GS;SALA NOC
+QA-31;AP-31;Corredor Técnico
+QCA-4PAV-03;CCP-FL04-3;CORREDOR A
+QA-32;AP-32;Corredor Técnico
+CDP1-2-1-5;PDU1-5-1-1;Data Hall 1
+CDP1-1-2-1;PDU1-1-1-2;Data Hall 1
+CDP1-1-2-2;PDU1-2-1-2;Data Hall 1
+CDP1-1-2-3;PDU1-3-1-2;Data Hall 1
+CDP1-1-2-4;PDU1-4-1-2;Data Hall 1
+CDP1-2-1-1;PDU1-1-2-1;Data Hall 1
+CDP1-2-1-2;PDU1-2-2-1;Data Hall 1
+CDP1-2-1-3;PDU1-3-2-1;Data Hall 1
+RPP1-1-1-1A;RPP1-1-1-1A;Data Hall 1
+CDP1-1-1-5;PDU1-5-1-1;Data Hall 1
+CDP1-2-2-1;PDU1-1-2-2;Data Hall 1
+CDP1-2-2-2;PDU1-2-2-2;Data Hall 1
+CDP1-2-2-3;PDU1-3-2-2;Data Hall 1
+CDP1-1-2-5;PDU1-5-1-2;Data Hall 1
+CDP1-1-1-2;PDU1-2-1-1;Data Hall 1
+CDP1-1-1-3;PDU1-3-1-1;Data Hall 1
+CDP1-1-1-4;PDU1-4-1-1;Data Hall 1
+RPP1-1-1-1B;RPP1-1-1-1B;Data Hall 1
+RPP1-1-2-1A;RPP1-1-1-2A;Data Hall 1
+RPP1-1-1-2B;RPP1-2-1-1B;Data Hall 1
+RPP1-1-2-2A;RPP1-2-1-2A;Data Hall 1
+RPP1-1-1-3B;RPP1-3-1-1B;Data Hall 1
+RPP1-1-2-3A;RPP1-3-1-2A;Data Hall 1
+RPP1-1-1-4B;RPP1-4-1-1B;Data Hall 1
+RPP1-1-2-4A;RPP1-4-1-2A;Data Hall 1
+RPP1-1-1-5B;RPP1-5-1-1B;Data Hall 1
+RPP1-1-2-5A;RPP1-5-1-2A;Data Hall 1
+RPP1-1-2-1B;RPP1-1-1-2B;Data Hall 1
+RPP1-2-1-1A;RPP1-1-2-1A;Data Hall 1
+RPP1-1-2-2B;RPP1-2-1-2B;Data Hall 1
+RPP1-2-1-2A;RPP1-2-2-1A;Data Hall 1
+RPP1-1-2-3B;RPP1-3-1-2B;Data Hall 1
+RPP1-2-1-3A;RPP1-3-2-1A;Data Hall 1
+RPP1-1-2-4B;RPP1-4-1-2B;Data Hall 1
+RPP1-1-1-5A;RPP1-5-1-1A;Data Hall 1
+RPP1-1-2-5B;RPP1-5-1-2B;Data Hall 1
+RPP1-2-1-5A;RPP1-5-2-1A;Data Hall 1
+RPP1-2-1-1B;RPP1-1-2-1B;Data Hall 1
+RPP1-2-2-1A;RPP1-1-2-2A;Data Hall 1
+RPP1-2-1-2B;RPP1-2-2-1B;Data Hall 1
+RPP1-2-2-2A;RPP1-2-2-2A;Data Hall 1
+RPP1-2-1-3B;RPP1-3-2-1B;Data Hall 1
+RPP1-2-2-3A;RPP1-3-2-2A;Data Hall 1
+RPP1-2-1-5B;RPP1-5-2-1B;Data Hall 1
+RPP1-2-2-5A;RPP1-5-2-2A;Data Hall 1
+RPP1-2-2-1B;RPP1-1-2-2B;Data Hall 1
+RPP1-1-1-2A;RPP1-2-1-1A;Data Hall 1
+RPP1-2-2-2B;RPP1-2-2-2B;Data Hall 1
+RPP1-1-1-3A;RPP1-3-1-1A;Data Hall 1
+RPP1-2-2-3B;RPP1-3-2-2B;Data Hall 1
+RPP1-1-1-4A;RPP1-4-1-1A;Data Hall 1
+RPP1-2-2-5B;RPP1-5-2-2B;Data Hall 1
+CDP1-1-1-1;PDU1-1-1-1;Data Hall 1 
+ACDP-CH1-2B;DP1-1-CRAH-TA-S2 ;DH1 CORREDOR A
+ACDP-CH1-1B;DP1-2-CRAH-TA-S2 ;DH1 CORREDOR A
+ACDP-CH1-2A;DP1-2-CRAH-TA-S1 ;DH1 CORREDOR A
+ATS-ACDP-CH1-1B;ATS-DP1-1CRAH-TA-S2 ;DH1 CORREDOR A
+ATS-ACDP-CH1-2A;ATS-DP1-2CRAH-TA-S1 ;DH1 CORREDOR A
+ATS-ACDP-CH1-2B;ATS-DP1-2CRAH-TA-S2 ;DH1 CORREDOR A
+CRAH 1.A.1;CRAH1-A01;DH1 CORREDOR A
+CRAH 1.A.2;CRAH1-A02;DH1 CORREDOR A
+CRAH 1.A.11;CRAH1-A11;DH1 CORREDOR A
+CRAH 1.A.12;CRAH1-A12;DH1 CORREDOR A
+CRAH 1.A.13;CRAH1-A13;DH1 CORREDOR A
+CRAH 1.A.14;CRAH1-A14;DH1 CORREDOR A
+CRAH 1.A.15;CRAH1-A15;DH1 CORREDOR A
+CRAH 1.A.16;CRAH1-A16;DH1 CORREDOR A
+CRAH 1.A.17;CRAH1-A17;DH1 CORREDOR A
+CRAH 1.A.18;CRAH1-A18;DH1 CORREDOR A
+CRAH 1.A.19;CRAH1-A19;DH1 CORREDOR A
+CRAH 1.A.20;CRAH1-A20;DH1 CORREDOR A
+CRAH 1.A.3;CRAH1-A03;DH1 CORREDOR A
+CRAH 1.A.21;CRAH1-A21;DH1 CORREDOR A
+CRAH 1.A.22;CRAH1-A22;DH1 CORREDOR A
+CRAH 1.A.23;CRAH1-A23;DH1 CORREDOR A
+CRAH 1.A.24;CRAH1-A24;DH1 CORREDOR A
+CRAH 1.A.4;CRAH1-A04;DH1 CORREDOR A
+CRAH 1.A.5;CRAH1-A05;DH1 CORREDOR A
+CRAH 1.A.6;CRAH1-A06;DH1 CORREDOR A
+CRAH 1.A.7;CRAH1-A07;DH1 CORREDOR A
+CRAH 1.A.8;CRAH1-A08;DH1 CORREDOR A
+CRAH 1.A.9;CRAH1-A09;DH1 CORREDOR A
+CRAH 1.A.10;CRAH1-A10;DH1 CORREDOR A
+ATS-ACDP-CH1-1A;ATS-DP1-1CRAH-TA-S1 ;DH1 CORREDOR A
+ACDP-CH1-1A;DP1-1-CRAH-TA-S1 ;DH1 CORREDOR A
+QA-34;AP-34;Corredor Técnico
+QLF-DH-1-1-1;LPP-DH1-1-1;Corredor Técnico
+QA-33;AP-33;Corredor Técnico
+QLF-DH-1-1-2;LPP-DH1-1-2;Corredor Técnico
+QLF-DH-1-2-1;LPP-DH1-2-1;Corredor Técnico
+QLF-DH-1-2-2;LPP-DH1-2-2;Corredor Técnico
+CDP1-1-3-5;PDU1-5-1-3;Data Hall 1
+CDP1-1-4-1;PDU1-1-1-4;Data Hall 1
+CDP1-1-4-2;PDU1-2-1-4;Data Hall 1
+CDP1-1-4-3;PDU1-3-1-4;Data Hall 1
+CDP1-1-4-4;PDU1-4-1-4;Data Hall 1
+CDP1-1-4-5;PDU1-5-1-4;Data Hall 1
+CDP1-2-3-1;PDU1-1-2-3;Data Hall 1
+CDP1-2-3-2;PDU1-2-2-3;Data Hall 1
+CDP1-2-3-3;PDU1-3-2-3;Data Hall 1
+RPP1-1-3-1A;RPP1-1-1-3A;Data Hall 1
+CDP1-2-3-5;PDU1-5-2-3;Data Hall 1
+CDP1-2-4-1;PDU1-1-2-4;Data Hall 1
+CDP1-2-4-2;PDU1-2-2-4;Data Hall 1
+CDP1-2-4-3;PDU1-3-2-4;Data Hall 1
+CDP1-2-4-5;PDU1-5-2-4;Data Hall 1
+CDP1-1-3-2;PDU1-2-1-3;Data Hall 1
+CDP1-1-3-3;PDU1-3-1-3;Data Hall 1
+CDP1-1-3-4;PDU1-4-1-3;Data Hall 1
+CDP1-1-3-1;PDU1-1-1-3;Data Hall 1
+RPP1-1-3-1B;RPP1-1-1-3B;Data Hall 1
+RPP1-1-4-1A;RPP1-1-1-4A;Data Hall 1
+RPP1-1-3-2B;RPP1-2-1-3B;Data Hall 1
+RPP1-1-4-2A;RPP1-2-1-4A;Data Hall 1
+RPP1-1-3-3B;RPP1-3-1-3B;Data Hall 1
+RPP1-1-4-3A;RPP1-3-1-4A;Data Hall 1
+RPP1-1-3-4B;RPP1-4-1-3B;Data Hall 1
+RPP1-1-4-4A;RPP1-4-1-4A;Data Hall 1
+RPP1-1-3-5B;RPP1-5-1-3B;Data Hall 1
+RPP1-1-4-5A;RPP1-5-1-4A;Data Hall 1
+RPP1-1-4-1B;RPP1-1-1-4B;Data Hall 1
+RPP1-2-3-1A;RPP1-1-2-3A;Data Hall 1
+RPP1-1-4-2B;RPP1-2-1-4B;Data Hall 1
+RPP1-2-3-2A;RPP1-2-2-3A;Data Hall 1
+RPP1-1-4-3B;RPP1-3-1-4B;Data Hall 1
+RPP1-2-3-3A;RPP1-3-2-3A;Data Hall 1
+RPP1-1-4-4B;RPP1-4-1-4B;Data Hall 1
+RPP1-1-3-5A;RPP1-5-1-3A;Data Hall 1
+RPP1-1-4-5B;RPP1-5-1-4B;Data Hall 1
+RPP1-2-3-5A;RPP1-5-2-3A;Data Hall 1
+RPP1-2-3-1B;RPP1-1-2-3B;Data Hall 1
+RPP1-2-4-1A;RPP1-1-2-4A;Data Hall 1
+RPP1-2-3-2B;RPP1-2-2-3B;Data Hall 1
+RPP1-2-4-2A;RPP1-2-2-4A;Data Hall 1
+RPP1-2-3-3B;RPP1-3-2-3B;Data Hall 1
+RPP1-2-4-3A;RPP1-3-2-4A;Data Hall 1
+RPP1-2-3-5B;RPP1-5-2-3B;Data Hall 1
+RPP1-2-4-5A;RPP1-5-2-4A;Data Hall 1
+RPP1-2-4-1B;RPP1-1-2-4B;Data Hall 1
+RPP1-1-3-2A;RPP1-2-1-3A;Data Hall 1
+RPP1-2-4-2B;RPP1-2-2-4B;Data Hall 1
+RPP1-1-3-3A;RPP1-3-1-3A;Data Hall 1
+RPP1-2-4-3B;RPP1-3-2-4B;Data Hall 1
+RPP1-1-3-4A;RPP1-4-1-3A;Data Hall 1
+RPP1-2-4-5B;RPP1-5-2-4B;Data Hall 1
+ACDP-CH2-1B;DP1-3-CRAH-TA-S2 ;DH1 CORREDOR B
+ACDP-CH3-2A;DPC-1-CRAH-TA-S1 ;DH1 CORREDOR B
+ACDP-CH3-2B;DPC-1-CRAH-TA-S2 ;DH1 CORREDOR B
+ATS-ACDP-CH2-1B;ATS-DP1-3CRAH-TA-S2 ;DH1 CORREDOR B
+ATS-ACDP-CH3-2-1B;ATS-DPC-1CRAH-TA-S1 ;DH1 CORREDOR B
+ATS-ACDP-CH3-2-2B;ATS-DPC-1CRAH-TA-S2 ;DH1 CORREDOR B
+CRAH 1.B.1;CRAH1-B01;DH1 CORREDOR B
+CRAH 1.B.2;CRAH1-B02;DH1 CORREDOR B
+CRAH 1.B.11;CRAH1-B11;DH1 CORREDOR B
+CRAH 1.B.12;CRAH1-B12;DH1 CORREDOR B
+CRAH 1.B.13;CRAH1-B13;DH1 CORREDOR B
+CRAH 1.B.14;CRAH1-B14;DH1 CORREDOR B
+CRAH 1.B.15;CRAH1-B15;DH1 CORREDOR B
+CRAH 1.B.16;CRAH1-B16;DH1 CORREDOR B
+CRAH 1.B.17;CRAH1-B17;DH1 CORREDOR B
+CRAH 1.B.18;CRAH1-B18;DH1 CORREDOR B
+CRAH 1.B.19;CRAH1-B19;DH1 CORREDOR B
+CRAH 1.B.20;CRAH1-B20;DH1 CORREDOR B
+CRAH 1.B.3;CRAH1-B03;DH1 CORREDOR B
+CRAH 1.B.21;CRAH1-B21;DH1 CORREDOR B
+CRAH 1.B.22;CRAH1-B22;DH1 CORREDOR B
+CRAH 1.B.23;CRAH1-B23;DH1 CORREDOR B
+CRAH 1.B.24;CRAH1-B24;DH1 CORREDOR B
+CRAH 1.B.4;CRAH1-B04;DH1 CORREDOR B
+CRAH 1.B.5;CRAH1-B05;DH1 CORREDOR B
+CRAH 1.B.6;CRAH1-B06;DH1 CORREDOR B
+CRAH 1.B.7;CRAH1-B07;DH1 CORREDOR B
+CRAH 1.B.8;CRAH1-B08;DH1 CORREDOR B
+CRAH 1.B.9;CRAH1-B09;DH1 CORREDOR B
+CRAH 1.B.10;CRAH1-B10;DH1 CORREDOR B
+ATS-ACDP-CH2-1A;ATS-DP1-3CRAH-TA-S1 ;DH1 CORREDOR B
+ACDP-CH2-1A;DP1-3-CRAH-TA-S1 ;DH1 CORREDOR B
+QA-37;AP-37;Corredor Técnico
+QA-38;AP-38;Corredor Técnico
+QA-47;AP-47;Corredor Técnico
+CDP2-1-3-1;PDU2-1-1-3;Data Hall 2
+CDP2-1-4-1;PDU2-1-1-4;Data Hall 2
+CDP2-2-3-1;PDU2-1-2-3;Data Hall 2
+CDP2-2-4-1;PDU2-1-2-4;Data Hall 2
+RPP2-1-3-1A;RPP2-1-1-3A;Data Hall 2
+RPP2-1-3-1B;RPP2-1-1-3B;Data Hall 2
+RPP2-1-3-1C;RPP2-1-1-3C;Data Hall 2
+RPP2-1-3-1D;RPP2-1-1-3D;Data Hall 2
+RPP2-1-4-1A;RPP2-1-1-4A;Data Hall 2
+RPP2-1-4-1B;RPP2-1-1-4B;Data Hall 2
+RPP2-1-4-1C;RPP2-1-1-4C;Data Hall 2
+RPP2-2-3-1A;RPP2-1-2-3A;Data Hall 2
+RPP2-2-3-1B;RPP2-1-2-3B;Data Hall 2
+RPP2-2-3-1C;RPP2-1-2-3C;Data Hall 2
+RPP2-2-4-1B;RPP2-1-2-4B;Data Hall 2
+RPP2-2-4-1C;RPP2-1-2-4C;Data Hall 2
+RPP2-2-4-1A;RPP2-1-2-4A;Data Hall 2
+CDP2-1-2-1;PDU2-1-1-2;Data Hall 2
+CDP2-2-2-2;PDU2-2-2-2;Data Hall 2.2
+CDP2-2-4-2;PDU2-2-2-4;Data Hall 2.2
+CDP2-1-3-2;PDU2-2-1-3;Data Hall 2.2
+CDP2-1-1-2;PDU2-2-1-1;Data Hall 2.2
+RPP2-2-2-2A;RPP2-2-2-2A;Data Hall 2.2
+RPP2-2-2-2B;RPP2-2-2-2B;Data Hall 2.2
+RPP2-1-1-2B;RPP2-2-1-1B;Data Hall 2.2
+RPP2-1-1-2A;RPP2-2-1-1A;Data Hall 2.2
+C04015CRAH2C01;CRAH2-C01;DH2 CORREDOR C
+C04015CRAH2C04;CRAH2-C04;DH2 CORREDOR C
+C04015CRAH2C03;CRAH2-C03;DH2 CORREDOR C
+C04015CRAH2C21;CRAH2-C21;DH2 CORREDOR C
+C04015CRAH2C22;CRAH2-C22;DH2 CORREDOR C
+C04015CRAH2C23;CRAH2-C23;DH2 CORREDOR C
+C04015CRAH2C24;CRAH2-C24;DH2 CORREDOR C
+;CRAH2-C07;DH2 CORREDOR C
+ATS-ACDP-CH5-1A;ATS-DPC-2CRAH-TA-S1;DH2 CORREDOR C
+ACDP-CH6-1A;DP2-1-CRAH-TA-S1 ;DH2 CORREDOR C
+;CRAH2-C08;DH2 CORREDOR C
+;CRAH2-C09;DH2 CORREDOR C
+;CRAH2-C10;DH2 CORREDOR C
+;CRAH2-C12;DH2 CORREDOR C
+C04015CRAH2C02;CRAH2-C02;DH2 CORREDOR C
+PDU2-1-3-2;PDU2-1-3-2;
+QCA-4PAV-06;CCP-FL04-6;CORREDOR D
+QA-35;AP-35;Corredor Técnico
+QA-36;AP-36;Corredor Técnico
+QA-48;AP-48;Corredor Técnico
+RPP2-1-1-1A;RPP2-1-1-1A;Data Hall 2
+RPP2-1-1-1B;RPP2-1-1-1B;Data Hall 2
+RPP2-1-1-1C;RPP2-1-1-1C;Data Hall 2
+RPP2-1-1-1D;RPP2-1-1-1D;Data Hall 2
+RPP2-1-2-1A;RPP2-1-1-2A;Data Hall 2
+RPP2-1-2-1B;RPP2-1-1-2B;Data Hall 2
+RPP2-1-2-1C;RPP2-1-1-2C;Data Hall 2
+RPP2-2-1-1A;RPP2-1-2-1A;Data Hall 2
+RPP2-2-1-1B;RPP2-1-2-1B;Data Hall 2
+RPP2-2-1-1C;RPP2-1-2-1C;Data Hall 2
+RPP2-2-1-1D;RPP2-1-2-1D;Data Hall 2
+RPP2-2-2-1B;RPP2-1-2-2B;Data Hall 2
+RPP2-2-2-1C;RPP2-1-2-2C;Data Hall 2
+RPP2-2-2-1A;RPP2-1-2-2A;Data Hall 2
+CDP2-1-2-2;PDU2-2-1-2;Data Hall 2.2
+CDP2-1-4-2;PDU2-2-1-4;Data Hall 2.2
+CDP2-2-1-2;PDU2-2-2-1;Data Hall 2.2
+CDP2-2-3-2;PDU2-2-2-3;Data Hall 2.2
+RPP2-2-1-2B;RPP2-2-2-1B;Data Hall 2.2
+RPP2-1-2-2B;RPP2-2-1-2B;Data Hall 2.2
+RPP2-2-1-2A;RPP2-2-2-1A;Data Hall 2.2
+ATS-ACDP-CH6-2B;ATS-DP2-1CRAH-TA-S2 ;DH2 CORREDOR D
+C04013CRAH2D01;CRAH2-D01;DH2 CORREDOR D
+C04013CRAH2D02;CRAH2-D02;DH2 CORREDOR D
+C04013CRAH2D03;CRAH2-D03;DH2 CORREDOR D
+C04013CRAH2D04;CRAH2-D04;DH2 CORREDOR D
+C04013CRAH2D21;CRAH2-D21;DH2 CORREDOR D
+C04013CRAH2D22;CRAH2-D22;DH2 CORREDOR D
+C04013CRAH2D23;CRAH2-D23;DH2 CORREDOR D
+C04013CRAH2D24;CRAH2-D24;DH2 CORREDOR D
+;CRAH2-D07;DH2 CORREDOR D
+CDP2-2-1-1;PDU2-1-2-1;DH2 CORREDOR D
+CDP2-2-2-1;PDU2-1-2-2;DH2 CORREDOR D
+ATS-ACDP-CH6-1A;ATS-DP2-1CRAH-TA-S1 ;DH2 CORREDOR D
+ACDP-CH6-2B;DP2-1-CRAH-TA-S2 ;DH2 CORREDOR D
+;CRAH2-D08;DH2 CORREDOR D
+;CRAH2-D09;DH2 CORREDOR D
+;CRAH2-D10;DH2 CORREDOR D
+;CRAH2-D11;DH2 CORREDOR D
+CDP2-1-1-1;PDU2-1-1-1;DH2 CORREDOR D
+CA;ACP-FL04-TA-D;
+ATS-ACDP-CH5-2B;ATS-DP-CH5-2B;
+ACDP-CH5-2B;DP-CH5-2B;
+CRAC-TX-02;CRAC-TX-02;Sala TX B2B
+QDF-500-A1-48V;PDP-500-A1-48V;
+HVAC-NOC-1P2;HVAC-FL04-NOC-1P2;
+HVAC 1 A-27;FC1A-27;
+HVAC 1 B-26;FC1B-26;
+ HVAC 1 B-27;FC1B-27;
+HVAC 1 C-2;FC1C-2;
+HVAC 1 C-3;FC1C-3;
+HVAC 1 C-4;FC1C-4;
+HVAC 1 C-5;FC1C-5;
+HVAC 1 C-6;FC1C-6;
+HVAC 1 LB-1;FC1LB-1;
+HVAC 1P-2;FC1P-2;
+HVAC 1P-3;FC1P-3;
+HVAC 1 C-1;FC1C-1;
+;FCNOC1P-1;
+;FCC-26;
+HVAC-D-27;HVAC-FL04-D-27;
+HVAC-C-26;HVAC-FL04-C-26;
+HVAC 1 A-26;FC1A-26;
+HVAC-D-26;HVAC-FL04-D-26;
+VAV-2-1P1;VAV-2-FL04-1P1;
+HVAC-NOC-1P1;HVAC-FL04-NOC-1P1;
+VAV-11-1P2;VAV-11-FL04-1P2;
+VAV-11-1P3;VAV-11-FL04-1P3;
+VAV-11-1P4;VAV-11-FL04-1P4;
+HVAC-C-27;HVAC-FL04-C-27;
+VAV-11-1P1;VAV-11-FL04-1P1;
+VAV-2-1P10;VAV-2-FL04-1P10;
+VAV-1-1P4;VAV-1-FL04-1P4;
+VAV-1-1P5;VAV-1-FL04-1P5;
+VAV-1-1P6;VAV-1-FL04-1P6;
+VAV-1-1P7;VAV-1-FL04-1P7;
+VAV-11-1P5;VAV-11-FL04-1P5;
+VAV-2-1P2;VAV-2-FL04-1P2;
+VAV-2-1P3;VAV-2-FL04-1P3;
+VAV-3-1p1;VAV-3-FL04-1P1;
+VAV-1-1p3;VAV-1-FL04-1P3;
+VAV-1-1P1;VAV-1-FL04-1P1;
+VAV-2-1P4;VAV-2-FL04-1P4;
+VAV-2-1P5;VAV-2-FL04-1P5;
+VAV-2-1P6;VAV-2-FL04-1P6;
+VAV-2-1P7;VAV-2-FL04-1P7;
+VAV-2-1p9;VAV-2-FL04-1P9;
+VAV-2-1p11;VAV-2-FL04-1P11;
+VAV-2-1p8;VAV-2-FL04-1P8;
+VAV-2-1p12;VAV-2-FL04-1P12;
+VI 1P 1;FAN1P-1;
+;FCNOC1P-2;
+HVAC 1 EN-1;FC1EN-1;
+;FCC-27;
+;FCD-26;
+;FCD-27;
+;VIDEO-WALL;
+;FC1P-1;
+;FC1P-1;
+;FCMEZ-1;
